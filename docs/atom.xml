@@ -6,7 +6,7 @@
   <link href="/wiki/atom.xml" rel="self"/>
   
   <link href="https://timothyylim.github.io/wiki/"/>
-  <updated>2018-09-26T05:17:56.665Z</updated>
+  <updated>2018-09-26T05:20:45.534Z</updated>
   <id>https://timothyylim.github.io/wiki/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://timothyylim.github.io/wiki/2018/09/26/hexo/publishing-hexo-to-gh-pages/"/>
     <id>https://timothyylim.github.io/wiki/2018/09/26/hexo/publishing-hexo-to-gh-pages/</id>
     <published>2018-09-26T04:37:24.835Z</published>
-    <updated>2018-09-26T05:17:56.665Z</updated>
+    <updated>2018-09-26T05:20:45.534Z</updated>
     
-    <content type="html"><![CDATA[<p>This tutorial shows you how to publish a Hexo site to a project page in Github. This assumes that you already have a repository set up.</p><h2 id="Update-your-Hexo-configuration"><a href="#Update-your-Hexo-configuration" class="headerlink" title="Update your Hexo configuration"></a>Update your Hexo configuration</h2><p>Set your public directory to ‘docs’ in _config.yml:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">public_dir: docs</span><br></pre></td></tr></table></figure><p>Set the url and root appropriately:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">url: https://timothyylim.github.io/wiki/docs</span><br><span class="line">root: /wiki/docs/</span><br></pre></td></tr></table></figure><p>Generate the site:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure><p>Push to your repo and set the github pages to point to /docs.</p>]]></content>
+    <content type="html"><![CDATA[<p>This tutorial shows you how to publish a Hexo site to a project page in Github. This assumes that you already have a repository set up.</p><h2 id="Update-your-Hexo-configuration"><a href="#Update-your-Hexo-configuration" class="headerlink" title="Update your Hexo configuration"></a>Update your Hexo configuration</h2><p>Set your public directory to ‘docs’ in _config.yml:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">public_dir: docs</span><br></pre></td></tr></table></figure><p>Set the url and root appropriately:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">url: https://timothyylim.github.io/wiki</span><br><span class="line">root: /wiki/</span><br></pre></td></tr></table></figure><p>Generate the site:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure><p>Push to your repo and set the github pages to point to /docs.</p>]]></content>
     
     <summary type="html">
     

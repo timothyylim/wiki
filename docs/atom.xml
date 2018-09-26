@@ -6,7 +6,7 @@
   <link href="/wiki/atom.xml" rel="self"/>
   
   <link href="https://timothyylim.github.io/wiki/"/>
-  <updated>2018-09-26T05:20:45.534Z</updated>
+  <updated>2018-09-26T12:12:45.545Z</updated>
   <id>https://timothyylim.github.io/wiki/</id>
   
   <author>
@@ -17,19 +17,70 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Publishing a Hexo Site to gh-pages</title>
-    <link href="https://timothyylim.github.io/wiki/2018/09/26/hexo/publishing-hexo-to-gh-pages/"/>
-    <id>https://timothyylim.github.io/wiki/2018/09/26/hexo/publishing-hexo-to-gh-pages/</id>
-    <published>2018-09-26T04:37:24.835Z</published>
-    <updated>2018-09-26T05:20:45.534Z</updated>
+    <title>Rapid Prototyping With nodejs</title>
+    <link href="https://timothyylim.github.io/wiki/2018/09/26/nodejs/rapid-prototyping-nodejs/"/>
+    <id>https://timothyylim.github.io/wiki/2018/09/26/nodejs/rapid-prototyping-nodejs/</id>
+    <published>2018-09-26T11:54:22.482Z</published>
+    <updated>2018-09-26T12:12:45.545Z</updated>
     
-    <content type="html"><![CDATA[<p>This tutorial shows you how to publish a Hexo site to a project page in Github. This assumes that you already have a repository set up.</p><h2 id="Update-your-Hexo-configuration"><a href="#Update-your-Hexo-configuration" class="headerlink" title="Update your Hexo configuration"></a>Update your Hexo configuration</h2><p>Set your public directory to ‘docs’ in _config.yml:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">public_dir: docs</span><br></pre></td></tr></table></figure><p>Set the url and root appropriately:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">url: https://timothyylim.github.io/wiki</span><br><span class="line">root: /wiki/</span><br></pre></td></tr></table></figure><p>Generate the site:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure><p>Push to your repo and set the github pages to point to /docs.</p>]]></content>
+    <content type="html"><![CDATA[<p>Database (lowdb):</p><ul><li>Sample application:<ul><li><a href="https://github.com/timothyylim/express-lowdb-example" rel="external nofollow noopener noreferrer" target="_blank">lowdb express example application</a></li></ul></li><li>Other resources:<ul><li><a href="https://dustinpfister.github.io/2018/06/23/express-todo-app-example/" rel="external nofollow noopener noreferrer" target="_blank">lowdb tutorial</a></li><li><a href="https://github.com/CodingForProduct/demo-express-lowdb-passport/blob/master/routes.j" rel="external nofollow noopener noreferrer" target="_blank">lowdb + passport</a></li></ul></li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;This tutorial shows you how to publish a Hexo site to a project page in Github. This assumes that you already have a repository set up.&lt;/
+        &lt;p&gt;Database (lowdb):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sample application:&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/timothyylim/express-lowdb-example&quot; rel=&quot;external n
+      
+    
+    </summary>
+    
+      <category term="nodejs" scheme="https://timothyylim.github.io/wiki/categories/nodejs/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>nodejs cheatsheet</title>
+    <link href="https://timothyylim.github.io/wiki/2018/09/26/nodejs/nodejs-cheatsheet/"/>
+    <id>https://timothyylim.github.io/wiki/2018/09/26/nodejs/nodejs-cheatsheet/</id>
+    <published>2018-09-26T11:39:48.464Z</published>
+    <updated>2018-09-26T11:40:56.306Z</updated>
+    
+    <content type="html"><![CDATA[<p>Ignore a directory nodemon</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&quot;scripts&quot;: &#123;</span><br><span class="line">    &quot;dev&quot;: &quot;nodemon app.js --ignore &apos;./data/&apos;&quot;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Ignore a directory nodemon&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span cl
+      
+    
+    </summary>
+    
+      <category term="nodejs" scheme="https://timothyylim.github.io/wiki/categories/nodejs/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Publishing a Hexo Site to gh-pages</title>
+    <link href="https://timothyylim.github.io/wiki/2018/09/26/hexo/publishing-hexo-to-gh-pages/"/>
+    <id>https://timothyylim.github.io/wiki/2018/09/26/hexo/publishing-hexo-to-gh-pages/</id>
+    <published>2018-09-26T04:37:24.835Z</published>
+    <updated>2018-09-26T11:40:29.028Z</updated>
+    
+    <content type="html"><![CDATA[<p>This shows you how to publish a Hexo site to a project page in Github. This assumes that you already have a repository set up.</p><h2 id="Update-your-Hexo-configuration"><a href="#Update-your-Hexo-configuration" class="headerlink" title="Update your Hexo configuration"></a>Update your Hexo configuration</h2><p>Set your public directory to ‘docs’ in _config.yml:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">public_dir: docs</span><br></pre></td></tr></table></figure><p>Set the url and root appropriately:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">url: https://timothyylim.github.io/wiki</span><br><span class="line">root: /wiki/</span><br></pre></td></tr></table></figure><p>Generate the site:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure><p>Push to your repo and set the github pages to point to /docs.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;This shows you how to publish a Hexo site to a project page in Github. This assumes that you already have a repository set up.&lt;/p&gt;
+&lt;h2 id
       
     
     </summary>

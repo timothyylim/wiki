@@ -2,7 +2,7 @@
 title: Publishing a Hexo Site to gh-pages 
 ---
 
-This tutorial shows you how to publish a Hexo site to a project page in Github. This assumes that you already have a repository set up.
+This shows you how to publish a Hexo site to a project page in Github. This assumes that you already have a repository set up.
 
 
 ## Update your Hexo configuration

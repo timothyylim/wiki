@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://timothyylim.github.io/wiki/2018/09/26/nodejs/rapid-prototyping-nodejs/</loc>
+    
+    <lastmod>2018-09-26T12:12:45.545Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://timothyylim.github.io/wiki/2018/09/26/nodejs/nodejs-cheatsheet/</loc>
+    
+    <lastmod>2018-09-26T11:40:56.306Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://timothyylim.github.io/wiki/2018/09/26/hexo/publishing-hexo-to-gh-pages/</loc>
     
-    <lastmod>2018-09-26T05:20:45.534Z</lastmod>
+    <lastmod>2018-09-26T11:40:29.028Z</lastmod>
     
   </url>
   

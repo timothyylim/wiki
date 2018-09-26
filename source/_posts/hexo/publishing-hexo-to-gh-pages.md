@@ -16,8 +16,8 @@ public_dir: docs
 Set the url and root appropriately:
 
 ```
-url: https://timothyylim.github.io/wiki/docs
-root: /wiki/docs/
+url: https://timothyylim.github.io/wiki
+root: /wiki/
 ```
 
 Generate the site:

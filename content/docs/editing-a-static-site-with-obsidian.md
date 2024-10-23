@@ -1,5 +1,6 @@
-
-
+---
+title: Editing A Static Site With Obsidian
+---
 # Editing A Static Site With Obsidian
 
 Let me tell you about how this site works because I love it. 

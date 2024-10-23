@@ -85,3 +85,7 @@ fi
 echo "Script completed."
 
 ```
+
+**Notes:**
+
+I'm still figuring out how to make images work. If you know please ping me at [@wayfaring_tim](https:/x.com/wayfaring_tim)!

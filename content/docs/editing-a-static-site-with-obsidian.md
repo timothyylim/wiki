@@ -1,4 +1,6 @@
-# Obsidian As A Text Editor For A Static Site
+
+
+# Editing A Static Site With Obsidian
 
 Let me tell you about how this site works because I love it. 
 
@@ -11,6 +13,8 @@ My setup has two components:
 **Now for the magic:** 
 
 We do a symlink from `wiki/content` *into* `~/repos/vault` which means that I can use Obsidian's super fast file traversal to edit my personal notes as well as the wiki and most importantly feed my vim addiction!
+
+![image](/obsidian-editing.png)
 
 **How about testing and publishing?**
 

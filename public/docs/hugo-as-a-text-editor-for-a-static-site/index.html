@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="
+  Obsidian As A Text Editor For A Static Site
+  #
+
+Let me tell you about how this site works because I love it.
+My setup has two components:
+
+A hugo site that lives at ~/repos/wiki
+
+This particular hugo theme expects content to be in wiki/content and wiki/content/docs if it is to be shown in the sidebar
+
+
+An Obsidian Vault that lives at ~/repos/vault
+
+Now for the magic:
+We do a symlink from wiki/content into ~/repos/vault which means that I can use Obsidian&rsquo;s super fast file traversal to edit my personal notes as well as the wiki and most importantly feed my vim addiction!">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/docs/hugo-as-a-text-editor-for-a-static-site/">
+  <meta property="og:site_name" content="Tim&#39;s wiki">
+  <meta property="og:title" content="Tim&#39;s wiki">
+  <meta property="og:description" content="Obsidian As A Text Editor For A Static Site # Let me tell you about how this site works because I love it.
+My setup has two components:
+A hugo site that lives at ~/repos/wiki This particular hugo theme expects content to be in wiki/content and wiki/content/docs if it is to be shown in the sidebar An Obsidian Vault that lives at ~/repos/vault Now for the magic:
+We do a symlink from wiki/content into ~/repos/vault which means that I can use Obsidian’s super fast file traversal to edit my personal notes as well as the wiki and most importantly feed my vim addiction!">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="docs">
+<title>Hugo as a Text Editor for a Static Site | Tim&#39;s wiki</title>
+<link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="http://localhost:1313/docs/hugo-as-a-text-editor-for-a-static-site/">
+<link rel="stylesheet" href="/book.min.6c8b9d2a1fc95075ed7da46ca81060b39add8fff6741ac51259f768929281e2c.css" integrity="sha256-bIudKh/JUHXtfaRsqBBgs5rdj/9nQaxRJZ92iSkoHiw=" crossorigin="anonymous">
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/en.search.min.e4bea381073b813a4c21b3eb4bd2a4941a2735a7dc32205d7ab67e452a88ec7f.js" integrity="sha256-5L6jgQc7gTpMIbPrS9KklBonNafcMiBderZ&#43;RSqI7H8=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Tim&#39;s wiki</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/hugo-as-a-text-editor-for-a-static-site/" class="active">Hugo as a Text Editor for a Static Site</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/h5p/" class="">H5P</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>Hugo as a Text Editor for a Static Site</h3>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents"></nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h1 id="obsidian-as-a-text-editor-for-a-static-site">
+  Obsidian As A Text Editor For A Static Site
+  <a class="anchor" href="#obsidian-as-a-text-editor-for-a-static-site">#</a>
+</h1>
+<p>Let me tell you about how this site works because I love it.</p>
+<p>My setup has two components:</p>
+<ol>
+<li>A <a href="https://gohugo.io">hugo site</a> that lives at <code>~/repos/wiki</code>
+<ul>
+<li>This particular <a href="https://themes.gohugo.io/themes/hugo-book/">hugo theme</a> expects content to be in <code>wiki/content</code> and <code>wiki/content/docs</code> if it is to be shown in the sidebar</li>
+</ul>
+</li>
+<li>An Obsidian Vault that lives at <code>~/repos/vault</code></li>
+</ol>
+<p><strong>Now for the magic:</strong></p>
+<p>We do a symlink from <code>wiki/content</code> <em>into</em> <code>~/repos/vault</code> which means that I can use Obsidian&rsquo;s super fast file traversal to edit my personal notes as well as the wiki and most importantly feed my vim addiction!</p>
+<p><strong>How about testing and publishing?</strong></p>
+<p>I&rsquo;ve also udpated my <code>.zshrc</code> to have two nifty commands: <code>$ wiki-serve</code> to test the site and <code>$ wiki-push</code> to build and push to Github. Currently I use vercel to deploy from Github.</p>
+<p>My <code>.zshrc</code> looks like this:</p>
+<pre tabindex="0"><code># the brackets means that a subshell is created to cd into the directory
+alias wiki-serve=&#39;(cd ~/repos/wiki &amp;&amp; hugo server)&#39;
+alias wiki-push=&#39;~/repos/configs/hugo-build-and-push.sh ~/repos/wiki&#39;
+</code></pre><p>and the <code>hugo-build-and-push.sh</code> script looks like this:</p>
+<pre tabindex="0"><code>#!/bin/bash
+
+# Check if the script is being sourced
+(return 0 2&gt;/dev/null) &amp;&amp; sourced=1 || sourced=0
+
+# If the script is sourced, don&#39;t execute the main functionality
+if [ $sourced -eq 1 ]; then
+    echo &#34;Script is being sourced. Skipping execution.&#34;
+    return 0
+fi
+
+# Check if a directory is passed as an argument
+if [ -z &#34;$1&#34; ]; then
+    echo &#34;No directory provided. Usage: ./script.sh &lt;directory&gt;&#34;
+    exit 1
+fi
+
+# Navigate to the specified directory
+DIRECTORY=&#34;$1&#34;
+
+if [ ! -d &#34;$DIRECTORY&#34; ]; then
+    echo &#34;The specified directory does not exist: $DIRECTORY&#34;
+    exit 1
+fi
+
+cd &#34;$DIRECTORY&#34; || { echo &#34;Failed to navigate to directory: $DIRECTORY&#34;; exit 1; }
+
+echo &#34;Building Hugo site in $DIRECTORY...&#34;
+hugo
+
+echo &#34;Checking for changes...&#34;
+if git status --porcelain | grep -q .; then
+    echo &#34;Changes detected. Adding files...&#34;
+    git add . &gt; /dev/null 2&gt;&amp;1
+    
+    echo &#34;Committing changes...&#34;
+    git commit -m &#34;update content&#34; &gt; /dev/null 2&gt;&amp;1
+    
+    echo &#34;Pushing changes to remote repository...&#34;
+    if git push &gt; /dev/null 2&gt;&amp;1; then
+        echo &#34;Changes pushed successfully.&#34;
+    else
+        echo &#34;Failed to push changes. Please check your network connection and remote repository settings.&#34;
+    fi
+else
+    echo &#34;No changes detected after Hugo build.&#34;
+fi
+
+echo &#34;Script completed.&#34;
+</code></pre></article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents"></nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

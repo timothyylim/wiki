@@ -1,5 +1,7 @@
 ---
 title: Editing A Static Site With Obsidian
+aliases:
+  - docs/editing-a-static-site-with-obsidian
 ---
 # Editing A Static Site With Obsidian
 

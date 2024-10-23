@@ -1,4 +1,8 @@
 baseURL = 'https://wiki.timothylim.is/'
 languageCode = 'en-us'
 title = "Tim's wiki"
-theme = 'hugo-book' 
+theme = 'hugo-book'
+
+[params]
+  # Add this line to use the custom home layout
+  customLayout = ["home"]

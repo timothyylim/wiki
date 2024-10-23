@@ -16,6 +16,8 @@ We do a symlink from `wiki/content` *into* `~/repos/vault` which means that I ca
 
 ![image](/obsidian-editing.png)
 
+*How cool is that!*
+
 **How about testing and publishing?**
 
 I've also udpated my `.zshrc` to have two nifty commands: `$ wiki-serve` to test the site and `$ wiki-push` to build and push to Github. Currently I use vercel to deploy from Github. 

@@ -23,16 +23,13 @@ alias t='trans en:de'
 which means I can just do this in my terminal:
 
 ```
-$ t 'hello world'
+$ t 'book flight tickets'
 
-hello world
+Flugtickets buchen
 
-Hallo Welt
-
-Translations of hello world
+Translations of book flight tickets
 [ English -> Deutsch ]
 
-hello world
-    , hallo welt
+book flight tickets
+    Flugtickets buchen
 ```
-

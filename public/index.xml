@@ -27,7 +27,7 @@
       <link>https://wiki.timothylim.is/test-meg/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://wiki.timothylim.is/test-meg/</guid>
-      <description>&lt;p&gt;this is going live&lt;/p&gt;</description>
+      <description>&lt;p&gt;this is going live&#xA;change anything&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

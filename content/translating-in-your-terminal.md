@@ -8,6 +8,12 @@ As a way to learn German, I write all my todos in German. It feels fitting, for 
 
 I don't enjoy opening up google translate so I found [translate-shell](https://github.com/soimort/translate-shell). 
 
+For mac users:
+
+```
+$ brew install translate-shell
+```
+
 I added this to my `~/.zshrc` file: 
 
 ```

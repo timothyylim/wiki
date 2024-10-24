@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="
+  Optimising A Hugo Site for SEO
+  #
+
+Let this article serve as a reference and checklist.
+Hugo is a static site generator, which makes it fast and efficient, but it also means you have to ensure that you’re following best SEO practices manually:
+
+  1. Configure Basic SEO in Hugo
+  #
+
+
+Page Titles and Meta Descriptions:
+
+Ensure each page has a unique, descriptive &lt;title&gt; tag and meta description.
+Use Hugo’s templating system to dynamically generate meta tags in the head of each page. Add this to your head.html partial:
+&lt;title&gt;{{ .Title }} - {{ .Site.Title }}&lt;/title&gt;
+&lt;meta name=&#34;description&#34; content=&#34;{{ .Description }}&#34;&gt;
+&lt;meta name=&#34;keywords&#34; content=&#34;H5P consultancy, H5P development, {{ .Keywords }}&#34;&gt;
+
+
+
+Permalinks:
+
+Ensure URLs are clean and readable by configuring permalinks in your config.toml or config.yaml.
+[permalinks]
+post = &#34;/:title/&#34;
+
+Use descriptive URLs that reflect your content and keywords.
+
+
+
+
+  2. Optimize Your Content
+  #
+
+
+Keyword Research:
+
+Conduct keyword research to find the most relevant keywords for each page or blog post.
+Incorporate those keywords naturally into your title, headings (H1, H2), and body text.
+
+
+Structured Content:
+
+Organize content with proper headings (&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;) to enhance readability and improve search engines&rsquo; understanding of your content.
+
+
+Internal Linking:
+
+Link relevant pages or blog posts together. This helps search engines crawl your site and builds context around key topics.
+
+
+
+
+  3. Optimize for Speed and Mobile
+  #
+
+
+Page Speed:
+
+Hugo-generated sites are usually very fast, but further optimize performance by compressing images, enabling lazy loading for images, and using a CDN.
+Use minified CSS and JavaScript. You can do this in Hugo with:
+[minify]
+disableHTML = false
+disableCSS = false
+disableJS = false
+
+Enable GZIP compression on your server for faster loading times.
+
+
+
+
+  4. Create an XML Sitemap
+  #
+
+
+Hugo has built-in support for generating a sitemap. Make sure your config.toml file includes this configuration:
+[outputs]
+home = [&#34;HTML&#34;, &#34;RSS&#34;, &#34;SITEMAP&#34;]
+
+This will generate an sitemap.xml file at the root of your site, which helps search engines index your pages.
+
+
+  5. Use Schema Markup
+  #
+
+
+Implement structured data to help search engines understand your content. For a blog post, you can add schema markup like this in your head.html partial:
+&lt;script type=&#34;application/ld&#43;json&#34;&gt;
+{
+  &#34;@context&#34;: &#34;https://schema.org&#34;,
+  &#34;@type&#34;: &#34;BlogPosting&#34;,
+  &#34;headline&#34;: &#34;{{ .Title }}&#34;,
+  &#34;author&#34;: &#34;{{ .Params.author }}&#34;,
+  &#34;datePublished&#34;: &#34;{{ .Date }}&#34;,
+  &#34;description&#34;: &#34;{{ .Description }}&#34;
+}
+&lt;/script&gt;
+
+Schema.org provides additional schema types you can use for reviews, articles, events, etc.
+
+
+  6. Set Up Canonical URLs
+  #
+
+
+Avoid duplicate content issues by setting canonical URLs in the head of your pages:
+&lt;link rel=&#34;canonical&#34; href=&#34;{{ .Permalink }}&#34;&gt;
+
+
+
+  7. Create SEO-Friendly Blog Content
+  #
+
+
+Write high-quality, long-form content that answers user queries (figure out what users might ask in search engines)
+Regularly update your blog with new content.
+Use images with descriptive alt text
+Use &ldquo;rich snippets&rdquo; for things like FAQ or How-to content to increase visibility in search results (this might be a bit overkill when thinking about how to implement it in markdown)
+
+
+  8. Optimize for Social Sharing (Open Graph and Twitter Cards)
+  #
+
+
+Add Open Graph and Twitter meta tags to control how your content appears when shared on social media. In head.html:
+&lt;meta property=&#34;og:title&#34; content=&#34;{{ .Title }}&#34;&gt;
+&lt;meta property=&#34;og:description&#34; content=&#34;{{ .Description }}&#34;&gt;
+&lt;meta property=&#34;og:image&#34; content=&#34;{{ .Params.image }}&#34;&gt;
+&lt;meta name=&#34;twitter:card&#34; content=&#34;summary_large_image&#34;&gt;
+&lt;meta name=&#34;twitter:title&#34; content=&#34;{{ .Title }}&#34;&gt;
+&lt;meta name=&#34;twitter:description&#34; content=&#34;{{ .Description }}&#34;&gt;
+
+
+
+  9. Robots.txt and Noindex
+  #
+
+
+Ensure that search engines are allowed to index your site by creating a robots.txt file.
+Use the noindex meta tag on any pages you don’t want to be indexed, such as privacy policies or draft pages.
+
+
+  10. Monitor and Adjust SEO
+  #
+
+
+Google Search Console: Submit your site and sitemap to Google Search Console to monitor performance and indexing issues.
+Analytics: Use Google Analytics or another tool to track traffic, bounce rates, and keyword rankings.
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="https://wiki.timothylim.is/optimising-a-hugo-site-for-seo/">
+  <meta property="og:site_name" content="Tim&#39;s wiki">
+  <meta property="og:title" content="Optimising A Hugo Site For SEO">
+  <meta property="og:description" content="Optimising A Hugo Site for SEO # Let this article serve as a reference and checklist.
+Hugo is a static site generator, which makes it fast and efficient, but it also means you have to ensure that you’re following best SEO practices manually:
+1. Configure Basic SEO in Hugo # Page Titles and Meta Descriptions: Ensure each page has a unique, descriptive &lt;title&gt; tag and meta description. Use Hugo’s templating system to dynamically generate meta tags in the head of each page. Add this to your head.html partial: &lt;title&gt;{{ .Title }} - {{ .Site.Title }}&lt;/title&gt; &lt;meta name=&#34;description&#34; content=&#34;{{ .Description }}&#34;&gt; &lt;meta name=&#34;keywords&#34; content=&#34;H5P consultancy, H5P development, {{ .Keywords }}&#34;&gt; Permalinks: Ensure URLs are clean and readable by configuring permalinks in your config.toml or config.yaml. [permalinks] post = &#34;/:title/&#34; Use descriptive URLs that reflect your content and keywords. 2. Optimize Your Content # Keyword Research: Conduct keyword research to find the most relevant keywords for each page or blog post. Incorporate those keywords naturally into your title, headings (H1, H2), and body text. Structured Content: Organize content with proper headings (&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;) to enhance readability and improve search engines’ understanding of your content. Internal Linking: Link relevant pages or blog posts together. This helps search engines crawl your site and builds context around key topics. 3. Optimize for Speed and Mobile # Page Speed: Hugo-generated sites are usually very fast, but further optimize performance by compressing images, enabling lazy loading for images, and using a CDN. Use minified CSS and JavaScript. You can do this in Hugo with: [minify] disableHTML = false disableCSS = false disableJS = false Enable GZIP compression on your server for faster loading times. 4. Create an XML Sitemap # Hugo has built-in support for generating a sitemap. Make sure your config.toml file includes this configuration: [outputs] home = [&#34;HTML&#34;, &#34;RSS&#34;, &#34;SITEMAP&#34;] This will generate an sitemap.xml file at the root of your site, which helps search engines index your pages. 5. Use Schema Markup # Implement structured data to help search engines understand your content. For a blog post, you can add schema markup like this in your head.html partial: &lt;script type=&#34;application/ld&#43;json&#34;&gt; { &#34;@context&#34;: &#34;https://schema.org&#34;, &#34;@type&#34;: &#34;BlogPosting&#34;, &#34;headline&#34;: &#34;{{ .Title }}&#34;, &#34;author&#34;: &#34;{{ .Params.author }}&#34;, &#34;datePublished&#34;: &#34;{{ .Date }}&#34;, &#34;description&#34;: &#34;{{ .Description }}&#34; } &lt;/script&gt; Schema.org provides additional schema types you can use for reviews, articles, events, etc. 6. Set Up Canonical URLs # Avoid duplicate content issues by setting canonical URLs in the head of your pages: &lt;link rel=&#34;canonical&#34; href=&#34;{{ .Permalink }}&#34;&gt; 7. Create SEO-Friendly Blog Content # Write high-quality, long-form content that answers user queries (figure out what users might ask in search engines) Regularly update your blog with new content. Use images with descriptive alt text Use “rich snippets” for things like FAQ or How-to content to increase visibility in search results (this might be a bit overkill when thinking about how to implement it in markdown) 8. Optimize for Social Sharing (Open Graph and Twitter Cards) # Add Open Graph and Twitter meta tags to control how your content appears when shared on social media. In head.html: &lt;meta property=&#34;og:title&#34; content=&#34;{{ .Title }}&#34;&gt; &lt;meta property=&#34;og:description&#34; content=&#34;{{ .Description }}&#34;&gt; &lt;meta property=&#34;og:image&#34; content=&#34;{{ .Params.image }}&#34;&gt; &lt;meta name=&#34;twitter:card&#34; content=&#34;summary_large_image&#34;&gt; &lt;meta name=&#34;twitter:title&#34; content=&#34;{{ .Title }}&#34;&gt; &lt;meta name=&#34;twitter:description&#34; content=&#34;{{ .Description }}&#34;&gt; 9. Robots.txt and Noindex # Ensure that search engines are allowed to index your site by creating a robots.txt file. Use the noindex meta tag on any pages you don’t want to be indexed, such as privacy policies or draft pages. 10. Monitor and Adjust SEO # Google Search Console: Submit your site and sitemap to Google Search Console to monitor performance and indexing issues. Analytics: Use Google Analytics or another tool to track traffic, bounce rates, and keyword rankings.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2024-10-24T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-10-24T00:00:00+00:00">
+<title>Optimising A Hugo Site For SEO | Tim&#39;s wiki</title>
+<link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="https://wiki.timothylim.is/optimising-a-hugo-site-for-seo/">
+<link rel="stylesheet" href="/book.min.6c8b9d2a1fc95075ed7da46ca81060b39add8fff6741ac51259f768929281e2c.css" integrity="sha256-bIudKh/JUHXtfaRsqBBgs5rdj/9nQaxRJZ92iSkoHiw=" crossorigin="anonymous">
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/en.search.min.374bd4232276f2c2d8c2c5909c473515901453c5e8fa0f3b685119e719642431.js" integrity="sha256-N0vUIyJ28sLYwsWQnEc1FZAUU8Xo&#43;g87aFEZ5xlkJDE=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Tim&#39;s wiki</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>Optimising A Hugo Site For SEO</h3>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#1-configure-basic-seo-in-hugo">1. <strong>Configure Basic SEO in Hugo</strong></a></li>
+        <li><a href="#2-optimize-your-content">2. <strong>Optimize Your Content</strong></a></li>
+        <li><a href="#3-optimize-for-speed-and-mobile">3. <strong>Optimize for Speed and Mobile</strong></a></li>
+        <li><a href="#4-create-an-xml-sitemap">4. <strong>Create an XML Sitemap</strong></a></li>
+        <li><a href="#5-use-schema-markup">5. <strong>Use Schema Markup</strong></a></li>
+        <li><a href="#6-set-up-canonical-urls">6. <strong>Set Up Canonical URLs</strong></a></li>
+        <li><a href="#7-create-seo-friendly-blog-content">7. <strong>Create SEO-Friendly Blog Content</strong></a></li>
+        <li><a href="#8-optimize-for-social-sharing-open-graph-and-twitter-cards">8. <strong>Optimize for Social Sharing (Open Graph and Twitter Cards)</strong></a></li>
+        <li><a href="#9-robotstxt-and-noindex">9. <strong>Robots.txt and Noindex</strong></a></li>
+        <li><a href="#10-monitor-and-adjust-seo">10. <strong>Monitor and Adjust SEO</strong></a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h1 id="optimising-a-hugo-site-for-seo">
+  Optimising A Hugo Site for SEO
+  <a class="anchor" href="#optimising-a-hugo-site-for-seo">#</a>
+</h1>
+<p>Let this article serve as a reference and checklist.</p>
+<p>Hugo is a static site generator, which makes it fast and efficient, but it also means you have to ensure that you’re following best SEO practices manually:</p>
+<h3 id="1-configure-basic-seo-in-hugo">
+  1. <strong>Configure Basic SEO in Hugo</strong>
+  <a class="anchor" href="#1-configure-basic-seo-in-hugo">#</a>
+</h3>
+<ul>
+<li><strong>Page Titles and Meta Descriptions</strong>:
+<ul>
+<li>Ensure each page has a unique, descriptive <code>&lt;title&gt;</code> tag and meta description.</li>
+<li>Use Hugo’s templating system to dynamically generate meta tags in the head of each page. Add this to your <code>head.html</code> partial:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">title</span>&gt;{{ .Title }} - {{ .Site.Title }}&lt;/<span style="color:#f92672">title</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;description&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Description }}&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;keywords&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;H5P consultancy, H5P development, {{ .Keywords }}&#34;</span>&gt;
+</span></span></code></pre></div></li>
+</ul>
+</li>
+<li><strong>Permalinks</strong>:
+<ul>
+<li>Ensure URLs are clean and readable by configuring permalinks in your <code>config.toml</code> or <code>config.yaml</code>.
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[<span style="color:#a6e22e">permalinks</span>]
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">post</span> = <span style="color:#e6db74">&#34;/:title/&#34;</span>
+</span></span></code></pre></div></li>
+<li>Use descriptive URLs that reflect your content and keywords.</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-optimize-your-content">
+  2. <strong>Optimize Your Content</strong>
+  <a class="anchor" href="#2-optimize-your-content">#</a>
+</h3>
+<ul>
+<li><strong>Keyword Research</strong>:
+<ul>
+<li>Conduct keyword research to find the most relevant keywords for each page or blog post.</li>
+<li>Incorporate those keywords naturally into your title, headings (H1, H2), and body text.</li>
+</ul>
+</li>
+<li><strong>Structured Content</strong>:
+<ul>
+<li>Organize content with proper headings (<code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>) to enhance readability and improve search engines&rsquo; understanding of your content.</li>
+</ul>
+</li>
+<li><strong>Internal Linking</strong>:
+<ul>
+<li>Link relevant pages or blog posts together. This helps search engines crawl your site and builds context around key topics.</li>
+</ul>
+</li>
+</ul>
+<h3 id="3-optimize-for-speed-and-mobile">
+  3. <strong>Optimize for Speed and Mobile</strong>
+  <a class="anchor" href="#3-optimize-for-speed-and-mobile">#</a>
+</h3>
+<ul>
+<li><strong>Page Speed</strong>:
+<ul>
+<li>Hugo-generated sites are usually very fast, but further optimize performance by compressing images, enabling lazy loading for images, and using a CDN.</li>
+<li>Use minified CSS and JavaScript. You can do this in Hugo with:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[<span style="color:#a6e22e">minify</span>]
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">disableHTML</span> = <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">disableCSS</span> = <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">disableJS</span> = <span style="color:#66d9ef">false</span>
+</span></span></code></pre></div></li>
+<li>Enable GZIP compression on your server for faster loading times.</li>
+</ul>
+</li>
+</ul>
+<h3 id="4-create-an-xml-sitemap">
+  4. <strong>Create an XML Sitemap</strong>
+  <a class="anchor" href="#4-create-an-xml-sitemap">#</a>
+</h3>
+<ul>
+<li>Hugo has built-in support for generating a sitemap. Make sure your <code>config.toml</code> file includes this configuration:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[<span style="color:#a6e22e">outputs</span>]
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">home</span> = [<span style="color:#e6db74">&#34;HTML&#34;</span>, <span style="color:#e6db74">&#34;RSS&#34;</span>, <span style="color:#e6db74">&#34;SITEMAP&#34;</span>]
+</span></span></code></pre></div></li>
+<li>This will generate an <code>sitemap.xml</code> file at the root of your site, which helps search engines index your pages.</li>
+</ul>
+<h3 id="5-use-schema-markup">
+  5. <strong>Use Schema Markup</strong>
+  <a class="anchor" href="#5-use-schema-markup">#</a>
+</h3>
+<ul>
+<li>Implement structured data to help search engines understand your content. For a blog post, you can add schema markup like this in your <code>head.html</code> partial:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;application/ld+json&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;@context&#34;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;https://schema.org&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;@type&#34;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;BlogPosting&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;headline&#34;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;{{ .Title }}&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;author&#34;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;{{ .Params.author }}&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;datePublished&#34;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;{{ .Date }}&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;description&#34;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;{{ .Description }}&#34;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">script</span>&gt;
+</span></span></code></pre></div></li>
+<li>Schema.org provides additional schema types you can use for reviews, articles, events, etc.</li>
+</ul>
+<h3 id="6-set-up-canonical-urls">
+  6. <strong>Set Up Canonical URLs</strong>
+  <a class="anchor" href="#6-set-up-canonical-urls">#</a>
+</h3>
+<ul>
+<li>Avoid duplicate content issues by setting canonical URLs in the head of your pages:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">link</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;canonical&#34;</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Permalink }}&#34;</span>&gt;
+</span></span></code></pre></div></li>
+</ul>
+<h3 id="7-create-seo-friendly-blog-content">
+  7. <strong>Create SEO-Friendly Blog Content</strong>
+  <a class="anchor" href="#7-create-seo-friendly-blog-content">#</a>
+</h3>
+<ul>
+<li>Write high-quality, long-form content that answers user queries (figure out what users might ask in search engines)</li>
+<li>Regularly update your blog with new content.</li>
+<li>Use images with descriptive alt text</li>
+<li>Use &ldquo;rich snippets&rdquo; for things like FAQ or How-to content to increase visibility in search results (this might be a bit overkill when thinking about how to implement it in markdown)</li>
+</ul>
+<h3 id="8-optimize-for-social-sharing-open-graph-and-twitter-cards">
+  8. <strong>Optimize for Social Sharing (Open Graph and Twitter Cards)</strong>
+  <a class="anchor" href="#8-optimize-for-social-sharing-open-graph-and-twitter-cards">#</a>
+</h3>
+<ul>
+<li>Add Open Graph and Twitter meta tags to control how your content appears when shared on social media. In <code>head.html</code>:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;og:title&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Title }}&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;og:description&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Description }}&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">property</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;og:image&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Params.image }}&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;twitter:card&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;summary_large_image&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;twitter:title&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Title }}&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;twitter:description&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Description }}&#34;</span>&gt;
+</span></span></code></pre></div></li>
+</ul>
+<h3 id="9-robotstxt-and-noindex">
+  9. <strong>Robots.txt and Noindex</strong>
+  <a class="anchor" href="#9-robotstxt-and-noindex">#</a>
+</h3>
+<ul>
+<li>Ensure that search engines are allowed to index your site by creating a <code>robots.txt</code> file.</li>
+<li>Use the <code>noindex</code> meta tag on any pages you don’t want to be indexed, such as privacy policies or draft pages.</li>
+</ul>
+<h3 id="10-monitor-and-adjust-seo">
+  10. <strong>Monitor and Adjust SEO</strong>
+  <a class="anchor" href="#10-monitor-and-adjust-seo">#</a>
+</h3>
+<ul>
+<li><strong>Google Search Console</strong>: Submit your site and sitemap to Google Search Console to monitor performance and indexing issues.</li>
+<li><strong>Analytics</strong>: Use Google Analytics or another tool to track traffic, bounce rates, and keyword rankings.</li>
+</ul>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#1-configure-basic-seo-in-hugo">1. <strong>Configure Basic SEO in Hugo</strong></a></li>
+        <li><a href="#2-optimize-your-content">2. <strong>Optimize Your Content</strong></a></li>
+        <li><a href="#3-optimize-for-speed-and-mobile">3. <strong>Optimize for Speed and Mobile</strong></a></li>
+        <li><a href="#4-create-an-xml-sitemap">4. <strong>Create an XML Sitemap</strong></a></li>
+        <li><a href="#5-use-schema-markup">5. <strong>Use Schema Markup</strong></a></li>
+        <li><a href="#6-set-up-canonical-urls">6. <strong>Set Up Canonical URLs</strong></a></li>
+        <li><a href="#7-create-seo-friendly-blog-content">7. <strong>Create SEO-Friendly Blog Content</strong></a></li>
+        <li><a href="#8-optimize-for-social-sharing-open-graph-and-twitter-cards">8. <strong>Optimize for Social Sharing (Open Graph and Twitter Cards)</strong></a></li>
+        <li><a href="#9-robotstxt-and-noindex">9. <strong>Robots.txt and Noindex</strong></a></li>
+        <li><a href="#10-monitor-and-adjust-seo">10. <strong>Monitor and Adjust SEO</strong></a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

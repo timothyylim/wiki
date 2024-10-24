@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=62348&amp;path=livereload" data-no-instant defer></script>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
-<meta name="color-scheme" content="light dark"><meta property="og:url" content="https://wiki.timothylim.is/tags/draft/">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:62348/tags/adjective/">
   <meta property="og:site_name" content="Tim&#39;s wiki">
-  <meta property="og:title" content="Draft">
+  <meta property="og:title" content="Adjective">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="website">
-<title>Draft | Tim&#39;s wiki</title>
+<title>Adjective | Tim&#39;s wiki</title>
 <link rel="icon" href="/favicon.png" >
 <link rel="manifest" href="/manifest.json">
-<link rel="canonical" href="https://wiki.timothylim.is/tags/draft/">
+<link rel="canonical" href="http://localhost:62348/tags/adjective/">
 <link rel="stylesheet" href="/book.min.6c8b9d2a1fc95075ed7da46ca81060b39add8fff6741ac51259f768929281e2c.css" integrity="sha256-bIudKh/JUHXtfaRsqBBgs5rdj/9nQaxRJZ92iSkoHiw=" crossorigin="anonymous">
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/en.search.min.374bd4232276f2c2d8c2c5909c473515901453c5e8fa0f3b685119e719642431.js" integrity="sha256-N0vUIyJ28sLYwsWQnEc1FZAUU8Xo&#43;g87aFEZ5xlkJDE=" crossorigin="anonymous"></script>
-<link rel="alternate" type="application/rss+xml" href="https://wiki.timothylim.is/tags/draft/index.xml" title="Tim's wiki" />
+  <script defer src="/en.search.min.ce933638e7b16ab13e9907da5a7c2a02de0d7a2f21df97f8723321c4e4901c5c.js" integrity="sha256-zpM2OOexarE&#43;mQfaWnwqAt4Nei8h35f4cjMhxOSQHFw=" crossorigin="anonymous"></script>
+<link rel="alternate" type="application/rss+xml" href="http://localhost:62348/tags/adjective/index.xml" title="Tim's wiki" />
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -92,7 +92,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <h3>Draft</h3>
+  <h3>Adjective</h3>
 
   <label for="toc-control">
     
@@ -127,6 +127,11 @@ https://github.com/alex-shpak/hugo-book
           <span>1</span>
         </li>
       
+        <li class="flex justify-between">
+          <a href="/tags/adjective/">Adjective</a>
+          <span>1</span>
+        </li>
+      
       </ul>
     </li>
     
@@ -145,12 +150,12 @@ https://github.com/alex-shpak/hugo-book
   
   <article class="markdown book-post">
     <h2>
-      <a href="/adding-twitter-login-to-nextjs/">Adding Twitter Login To NextJs (draft)</a>
+      <a href="/editing-a-static-site-with-obsidian-1/">Editing A Static Site With Obsidian</a>
     </h2>
     
   <div class="flex align-center text-small book-post-date">
     <img src="/svg/calendar.svg" class="book-icon " alt="" />
-    <span>October 23, 2024</span>
+    <span>October 22, 2024</span>
   </div>
 
 
@@ -160,20 +165,29 @@ https://github.com/alex-shpak/hugo-book
   
   <div class="text-small">
     
-      <a href="/tags/draft/">Draft</a>
+      <a href="/tags/adjective/">Adjective</a>
   </div>
   
 
 
-    <p><p>Get Twitter keys</p>
+    <p><h1 id="editing-a-static-site-with-obsidian">
+  Editing A Static Site With Obsidian
+  <a class="anchor" href="#editing-a-static-site-with-obsidian">#</a>
+</h1>
+<p>Let me tell you about how this site works because I love it.</p>
+<p>My setup has two components:</p>
+<ol>
+<li>A <a href="https://gohugo.io">hugo site</a> that lives at <code>~/repos/wiki</code>
 <ul>
-<li><a href="https://developer.x.com/en/portal">Developer Portal</a>
-<ul>
-<li>User authentication settings</li>
+<li>This particular <a href="https://themes.gohugo.io/themes/hugo-book/">hugo theme</a> expects content to be in <code>wiki/content</code> and <code>wiki/content/docs</code> if it is to be shown in the sidebar</li>
 </ul>
 </li>
-<li>you ahve to add     &ldquo;postinstall&rdquo;: &ldquo;prisma generate&rdquo; to scripts x</li>
-</ul>
+<li>An Obsidian Vault that lives at <code>~/repos/vault</code></li>
+</ol>
+<p><strong>Now for the magic:</strong></p>
+<p>We do a symlink from <code>wiki/content</code> <em>into</em> <code>~/repos/vault</code> which means that I can use Obsidian&rsquo;s super fast file traversal to edit my personal notes as well as the wiki and most importantly feed my vim addiction!</p>
+        <a href="/editing-a-static-site-with-obsidian-1/">...</a>
+      
     </p>
   </article>
   
@@ -231,6 +245,11 @@ https://github.com/alex-shpak/hugo-book
       
         <li class="flex justify-between">
           <a href="/tags/draft/">Draft</a>
+          <span>1</span>
+        </li>
+      
+        <li class="flex justify-between">
+          <a href="/tags/adjective/">Adjective</a>
           <span>1</span>
         </li>
       

@@ -3,7 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://wiki.timothylim.is/</loc>
-    <lastmod>2024-10-23T00:00:00+00:00</lastmod>
+    <lastmod>2024-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wiki.timothylim.is/translating-in-your-terminal/</loc>
+    <lastmod>2024-10-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://wiki.timothylim.is/adding-twitter-login-to-nextjs/</loc>
     <lastmod>2024-10-23T00:00:00+00:00</lastmod>
@@ -18,7 +21,5 @@
     <lastmod>2024-10-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://wiki.timothylim.is/categories/</loc>
-  </url><url>
-    <loc>https://wiki.timothylim.is/translating-in-your-terminal/</loc>
   </url>
 </urlset>

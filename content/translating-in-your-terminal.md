@@ -1,5 +1,6 @@
 ---
 title: Translating In Your Terminal
+date: 2024-10-24
 ---
 # Translating In Your Terminal 
 

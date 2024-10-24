@@ -6,3 +6,5 @@ theme = 'hugo-book'
 [params]
   # Add this line to use the custom home layout
   customLayout = ["home"]
+  # Add this line to disable the favicon
+  favicon = false

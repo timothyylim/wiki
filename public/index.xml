@@ -22,5 +22,12 @@
       <guid>https://wiki.timothylim.is/editing-a-static-site-with-obsidian/</guid>
       <description>&lt;h1 id=&#34;editing-a-static-site-with-obsidian&#34;&gt;&#xA;  Editing A Static Site With Obsidian&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#editing-a-static-site-with-obsidian&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Let me tell you about how this site works because I love it.&lt;/p&gt;&#xA;&lt;p&gt;My setup has two components:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;A &lt;a href=&#34;https://gohugo.io&#34;&gt;hugo site&lt;/a&gt; that lives at &lt;code&gt;~/repos/wiki&lt;/code&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;This particular &lt;a href=&#34;https://themes.gohugo.io/themes/hugo-book/&#34;&gt;hugo theme&lt;/a&gt; expects content to be in &lt;code&gt;wiki/content&lt;/code&gt; and &lt;code&gt;wiki/content/docs&lt;/code&gt; if it is to be shown in the sidebar&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;An Obsidian Vault that lives at &lt;code&gt;~/repos/vault&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;strong&gt;Now for the magic:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;We do a symlink from &lt;code&gt;wiki/content&lt;/code&gt; &lt;em&gt;into&lt;/em&gt; &lt;code&gt;~/repos/vault&lt;/code&gt; which means that I can use Obsidian&amp;rsquo;s super fast file traversal to edit my personal notes as well as the wiki and most importantly feed my vim addiction!&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>test article for meg</title>
+      <link>https://wiki.timothylim.is/test-meg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.timothylim.is/test-meg/</guid>
+      <description>&lt;p&gt;this is going live&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

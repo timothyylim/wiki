@@ -2,6 +2,7 @@
 title: Editing A Static Site With Obsidian
 aliases:
   - docs/editing-a-static-site-with-obsidian
+date: 2024-10-22
 ---
 # Editing A Static Site With Obsidian
 

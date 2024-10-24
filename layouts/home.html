@@ -3,7 +3,7 @@
   {{- .Content -}}
 </article>
 
-<h2>All Posts (Normal View)</h2>
+<h2>All Posts:</h2>
 <ul>
   {{ range .Site.RegularPages }}
     {{ if not (in .Params.tags "draft") }}

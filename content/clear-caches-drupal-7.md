@@ -1,6 +1,7 @@
 ---
 title: Clear Caches Drupal 7
-tags: 
+tags:
+  - snippets
 date: 2024-10-24
 ---
 # Clear Caches Drupal 7

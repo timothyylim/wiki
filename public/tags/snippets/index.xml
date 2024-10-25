@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Snippets on Tim&#39;s wiki</title>
+    <link>https://wiki.timothylim.is/tags/snippets/</link>
+    <description>Recent content in Snippets on Tim&#39;s wiki</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 24 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://wiki.timothylim.is/tags/snippets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Clear Caches Drupal 7</title>
+      <link>https://wiki.timothylim.is/clear-caches-drupal-7/</link>
+      <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://wiki.timothylim.is/clear-caches-drupal-7/</guid>
+      <description>&lt;h1 id=&#34;clear-caches-drupal-7&#34;&gt;&#xA;  Clear Caches Drupal 7&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#clear-caches-drupal-7&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Navigate to: Home -&amp;gt; Admininstration -&amp;gt; Configuration -&amp;gt; Development&lt;/p&gt;&#xA;&lt;p&gt;Or just click:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://64.227.118.57/?q=admin/config/development/performance&#34;&gt;https://64.227.118.57/?q=admin/config/development/performance&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

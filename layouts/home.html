@@ -1,17 +1,33 @@
 {{ define "main" }}
-<article class="markdown">
-  {{- .Content -}}
-</article>
+<main>
+    <h1>{{ .Title }}</h1>
 
-<h2>All Posts:</h2>
-<ul>
-  {{ range .Site.RegularPages }}
-    {{ if not (in .Params.tags "draft") }}
-      <li>
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        - <span>{{ .Date.Format "2 Jan 2006" }}</span>
-      </li>
-    {{ end }}
-  {{ end }}
-</ul>
+    <article class="markdown">
+        {{- .Content -}}
+    </article>
+
+    <h2>Latest Articles</h2>
+    <ul>
+        {{ range where .Site.RegularPages "Params.tags" "!=" "snippets" }}
+            {{ if not (in .Params.tags "draft") }}
+                <li>
+                    <a href="{{ .Permalink }}">{{ .Title }}</a>
+                    <time>{{ .Date.Format "2 Jan 2006" }}</time>
+                </li>
+            {{ end }}
+        {{ end }}
+    </ul>
+
+    <h2>Code Snippets</h2>
+    <ul>
+        {{ range where .Site.RegularPages "Params.tags" "intersect" (slice "snippets") }}
+            {{ if not (in .Params.tags "draft") }}
+                <li>
+                    <a href="{{ .Permalink }}">{{ .Title }}</a>
+                    <time>{{ .Date.Format "2 Jan 2006" }}</time>
+                </li>
+            {{ end }}
+        {{ end }}
+    </ul>
+</main>
 {{ end }}

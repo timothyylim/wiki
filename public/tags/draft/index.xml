@@ -16,13 +16,6 @@
       <description>&lt;p&gt;Get Twitter keys&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://developer.x.com/en/portal&#34;&gt;Developer Portal&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;User authentication settings&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;you ahve to add     &amp;ldquo;postinstall&amp;rdquo;: &amp;ldquo;prisma generate&amp;rdquo; to scripts x&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
-      <title>Clear Caches Drupal 7</title>
-      <link>https://wiki.timothylim.is/clear-caches-drupal-7/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://wiki.timothylim.is/clear-caches-drupal-7/</guid>
-      <description>&lt;h1 id=&#34;clear-caches-drupal-7&#34;&gt;&#xA;  Clear Caches Drupal 7&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#clear-caches-drupal-7&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Navigate to: Home -&amp;gt; Admininstration -&amp;gt; Configuration -&amp;gt; Development&lt;/p&gt;&#xA;&lt;p&gt;Or just click:&lt;/p&gt;&#xA;&lt;p&gt;https://64.227.118.57/?q=admin/config/development/performance&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Editing H5P docs</title>
       <link>https://wiki.timothylim.is/edit-h5p-docs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

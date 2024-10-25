@@ -1,7 +1,6 @@
 ---
 title: Clear Caches Drupal 7
-tags:
-  - draft
+tags: []
 ---
 # Clear Caches Drupal 7
 

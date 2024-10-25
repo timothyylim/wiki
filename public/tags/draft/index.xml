@@ -15,5 +15,19 @@
       <guid>https://wiki.timothylim.is/adding-twitter-login-to-nextjs/</guid>
       <description>&lt;p&gt;Get Twitter keys&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://developer.x.com/en/portal&#34;&gt;Developer Portal&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;User authentication settings&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;you ahve to add     &amp;ldquo;postinstall&amp;rdquo;: &amp;ldquo;prisma generate&amp;rdquo; to scripts x&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
+    <item>
+      <title>Clear Caches Drupal 7</title>
+      <link>https://wiki.timothylim.is/clear-caches-drupal-7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.timothylim.is/clear-caches-drupal-7/</guid>
+      <description>&lt;h1 id=&#34;clear-caches-drupal-7&#34;&gt;&#xA;  Clear Caches Drupal 7&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#clear-caches-drupal-7&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Navigate to: Home -&amp;gt; Admininstration -&amp;gt; Configuration -&amp;gt; Development&lt;/p&gt;&#xA;&lt;p&gt;Or just click:&lt;/p&gt;&#xA;&lt;p&gt;https://64.227.118.57/?q=admin/config/development/performance&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Editing H5P docs</title>
+      <link>https://wiki.timothylim.is/edit-h5p-docs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.timothylim.is/edit-h5p-docs/</guid>
+      <description>&lt;h1 id=&#34;editing-this-page&#34;&gt;&#xA;  Editing this page&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#editing-this-page&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;hugo-setup&#34;&gt;&#xA;  Hugo setup&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#hugo-setup&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s get it running locally first:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ brew install hugo&#xA;$ git clone https://github.com/timothyylim/h5p-site&#xA;$ cd h5p-site&#xA;$ hugo serve&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Navigate to &lt;code&gt;http://localhost:1313/&lt;/code&gt; to see that it works.&lt;/p&gt;&#xA;&lt;h2 id=&#34;editing-the-site&#34;&gt;&#xA;  Editing the site&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#editing-the-site&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;You can open the repo in any text editor you wish, the posts will go under &lt;code&gt;/content&lt;/code&gt;. Note that images will go in &lt;code&gt;/content&lt;/code&gt; too until I find a better place to put them.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

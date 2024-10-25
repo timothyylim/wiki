@@ -1,32 +1,45 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
 <head>
-	<meta name="generator" content="Hugo 0.136.0">
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="
-  Welcome
+  Editing this page
   #
 
-This is where I keep track of what I learn from using a computer.
-Find the rest of my world here.">
+
+  Hugo setup
+  #
+
+Let&rsquo;s get it running locally first:
+$ brew install hugo
+$ git clone https://github.com/timothyylim/h5p-site
+$ cd h5p-site
+$ hugo serve
+Navigate to http://localhost:1313/ to see that it works.
+
+  Editing the site
+  #
+
+You can open the repo in any text editor you wish, the posts will go under /content. Note that images will go in /content too until I find a better place to put them.">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
-<meta name="color-scheme" content="light dark"><meta property="og:url" content="https://wiki.timothylim.is/">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="https://wiki.timothylim.is/edit-h5p-docs/">
   <meta property="og:site_name" content="Tim&#39;s wiki">
-  <meta property="og:title" content="Tim&#39;s wiki">
-  <meta property="og:description" content="Welcome # This is where I keep track of what I learn from using a computer.
-Find the rest of my world here.">
+  <meta property="og:title" content="Editing H5P docs">
+  <meta property="og:description" content="Editing this page # Hugo setup # Let’s get it running locally first:
+$ brew install hugo $ git clone https://github.com/timothyylim/h5p-site $ cd h5p-site $ hugo serve Navigate to http://localhost:1313/ to see that it works.
+Editing the site # You can open the repo in any text editor you wish, the posts will go under /content. Note that images will go in /content too until I find a better place to put them.">
   <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="website">
-<title> | Tim&#39;s wiki</title>
+  <meta property="og:type" content="article">
+    <meta property="article:tag" content="Draft">
+<title>Editing H5P docs | Tim&#39;s wiki</title>
 <link rel="icon" href="/favicon.png" >
 <link rel="manifest" href="/manifest.json">
-<link rel="canonical" href="https://wiki.timothylim.is/">
+<link rel="canonical" href="https://wiki.timothylim.is/edit-h5p-docs/">
 <link rel="stylesheet" href="/book.min.6c8b9d2a1fc95075ed7da46ca81060b39add8fff6741ac51259f768929281e2c.css" integrity="sha256-bIudKh/JUHXtfaRsqBBgs5rdj/9nQaxRJZ92iSkoHiw=" crossorigin="anonymous">
   <script defer src="/fuse.min.js"></script>
   <script defer src="/en.search.min.728967e891b4c617a54f6836a1adc11cf5e0c5f303da41d96f67d8d872c9deb0.js" integrity="sha256-coln6JG0xhelT2g2oa3BHPXgxfMD2kHZb2fY2HLJ3rA=" crossorigin="anonymous"></script>
-<link rel="alternate" type="application/rss+xml" href="https://wiki.timothylim.is/index.xml" title="Tim's wiki" />
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -100,7 +113,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <h3></h3>
+  <h3>Editing H5P docs</h3>
 
   <label for="toc-control">
     
@@ -114,7 +127,13 @@ https://github.com/alex-shpak/hugo-book
   <aside class="hidden clearfix">
     
   
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#hugo-setup">Hugo setup</a></li>
+    <li><a href="#editing-the-site">Editing the site</a></li>
+    <li><a href="#pushing-your-changes">Pushing your changes</a></li>
+  </ul>
+</nav>
 
 
 
@@ -125,45 +144,43 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-<article class="markdown"><h1 id="welcome">
-  Welcome
-  <a class="anchor" href="#welcome">#</a>
+  <article class="markdown book-article"><h1 id="editing-this-page">
+  Editing this page
+  <a class="anchor" href="#editing-this-page">#</a>
 </h1>
-<p>This is where I keep track of what I learn from using a computer.</p>
-<p>Find the rest of my world <a href="https://timothylim.is">here</a>.</p>
-</article>
+<h2 id="hugo-setup">
+  Hugo setup
+  <a class="anchor" href="#hugo-setup">#</a>
+</h2>
+<p>Let&rsquo;s get it running locally first:</p>
+<pre tabindex="0"><code>$ brew install hugo
+$ git clone https://github.com/timothyylim/h5p-site
+$ cd h5p-site
+$ hugo serve
+</code></pre><p>Navigate to <code>http://localhost:1313/</code> to see that it works.</p>
+<h2 id="editing-the-site">
+  Editing the site
+  <a class="anchor" href="#editing-the-site">#</a>
+</h2>
+<p>You can open the repo in any text editor you wish, the posts will go under <code>/content</code>. Note that images will go in <code>/content</code> too until I find a better place to put them.</p>
+<p>All the posts are markdown but note that articles will need to have properties defined at the top like so:</p>
+<pre tabindex="0"><code>---
+date: 2024-10-24
+title: What Is H5P?
+---
 
-<h2>All Posts:</h2>
-<ul>
-  
-    
-      <li>
-        <a href="/optimising-a-hugo-site-for-seo/">Optimising A Hugo Site For SEO</a>
-        - <span>24 Oct 2024</span>
-      </li>
-    
-  
-    
-      <li>
-        <a href="/translating-in-your-terminal/">Translating In Your Terminal</a>
-        - <span>24 Oct 2024</span>
-      </li>
-    
-  
-    
-  
-    
-      <li>
-        <a href="/editing-a-static-site-with-obsidian/">Editing A Static Site With Obsidian</a>
-        - <span>22 Oct 2024</span>
-      </li>
-    
-  
-    
-  
-    
-  
-</ul>
+# What is H5P?
+</code></pre><h2 id="pushing-your-changes">
+  Pushing your changes
+  <a class="anchor" href="#pushing-your-changes">#</a>
+</h2>
+<p>You need to build the site before updating <code>git</code>:</p>
+<pre tabindex="0"><code>$ hugo build
+$ git add .
+$ git commit -m &#39;update site&#39;
+$ git push
+</code></pre><p>You can then check <code>h5p.timothylim.is</code> for changes.</p>
+</article>
  
       
 
@@ -202,7 +219,13 @@ https://github.com/alex-shpak/hugo-book
       <div class="book-toc-content">
         
   
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#hugo-setup">Hugo setup</a></li>
+    <li><a href="#editing-the-site">Editing the site</a></li>
+    <li><a href="#pushing-your-changes">Pushing your changes</a></li>
+  </ul>
+</nav>
 
 
  

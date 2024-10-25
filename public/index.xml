@@ -36,5 +36,19 @@
       <guid>https://wiki.timothylim.is/editing-a-static-site-with-obsidian/</guid>
       <description>&lt;h1 id=&#34;editing-a-static-site-with-obsidian&#34;&gt;&#xA;  Editing A Static Site With Obsidian&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#editing-a-static-site-with-obsidian&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Let me tell you about how this site works because I love it.&lt;/p&gt;&#xA;&lt;p&gt;My setup has two components:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;A &lt;a href=&#34;https://gohugo.io&#34;&gt;hugo site&lt;/a&gt; that lives at &lt;code&gt;~/repos/wiki&lt;/code&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;This particular &lt;a href=&#34;https://themes.gohugo.io/themes/hugo-book/&#34;&gt;hugo theme&lt;/a&gt; expects content to be in &lt;code&gt;wiki/content&lt;/code&gt; and &lt;code&gt;wiki/content/docs&lt;/code&gt; if it is to be shown in the sidebar&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;An Obsidian Vault that lives at &lt;code&gt;~/repos/vault&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;strong&gt;Now for the magic:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;We do a symlink from &lt;code&gt;wiki/content&lt;/code&gt; &lt;em&gt;into&lt;/em&gt; &lt;code&gt;~/repos/vault&lt;/code&gt; which means that I can use Obsidian&amp;rsquo;s super fast file traversal to edit my personal notes as well as the wiki and most importantly feed my vim addiction!&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Clear Caches Drupal 7</title>
+      <link>https://wiki.timothylim.is/clear-caches-drupal-7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.timothylim.is/clear-caches-drupal-7/</guid>
+      <description>&lt;h1 id=&#34;clear-caches-drupal-7&#34;&gt;&#xA;  Clear Caches Drupal 7&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#clear-caches-drupal-7&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Navigate to: Home -&amp;gt; Admininstration -&amp;gt; Configuration -&amp;gt; Development&lt;/p&gt;&#xA;&lt;p&gt;Or just click:&lt;/p&gt;&#xA;&lt;p&gt;https://64.227.118.57/?q=admin/config/development/performance&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Editing H5P docs</title>
+      <link>https://wiki.timothylim.is/edit-h5p-docs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.timothylim.is/edit-h5p-docs/</guid>
+      <description>&lt;h1 id=&#34;editing-this-page&#34;&gt;&#xA;  Editing this page&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#editing-this-page&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;hugo-setup&#34;&gt;&#xA;  Hugo setup&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#hugo-setup&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s get it running locally first:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ brew install hugo&#xA;$ git clone https://github.com/timothyylim/h5p-site&#xA;$ cd h5p-site&#xA;$ hugo serve&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Navigate to &lt;code&gt;http://localhost:1313/&lt;/code&gt; to see that it works.&lt;/p&gt;&#xA;&lt;h2 id=&#34;editing-the-site&#34;&gt;&#xA;  Editing the site&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#editing-the-site&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;You can open the repo in any text editor you wish, the posts will go under &lt;code&gt;/content&lt;/code&gt;. Note that images will go in &lt;code&gt;/content&lt;/code&gt; too until I find a better place to put them.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

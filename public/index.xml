@@ -13,7 +13,7 @@
       <link>https://wiki.timothylim.is/how-i-use-cursor/</link>
       <pubDate>Sat, 26 Oct 2024 00:00:00 +0000</pubDate>
       <guid>https://wiki.timothylim.is/how-i-use-cursor/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.cursor.com&#34;&gt;Cursor&lt;/a&gt; is an AI powered Code Editor and although it is a fork of VSCode it differs greatly from it in being designed intentionally around AI workflows.&lt;/p&gt;&#xA;&lt;p&gt;The biggest problem I had with ChatGPT was copying and pasting the context for my programming problem. Cursor solves this by actually being aware of your entire codebase which means it can also offer suggestions across multiple files.&lt;/p&gt;&#xA;&lt;p&gt;I use three different commands:&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;how-i-use-cursor&#34;&gt;&#xA;  How I Use Cursor&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#how-i-use-cursor&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.cursor.com&#34;&gt;Cursor&lt;/a&gt; is an AI powered Code Editor and although it is a fork of VSCode it differs greatly from it in being designed intentionally around AI workflows.&lt;/p&gt;&#xA;&lt;p&gt;The biggest problem I had with ChatGPT was copying and pasting the context for my programming problem. Cursor solves this by actually being aware of your entire codebase which means it can also offer suggestions across multiple files.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Clear Caches Drupal 7</title>

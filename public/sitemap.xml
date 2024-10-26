@@ -3,7 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://wiki.timothylim.is/</loc>
-    <lastmod>2024-10-24T00:00:00+00:00</lastmod>
+    <lastmod>2024-10-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wiki.timothylim.is/how-i-use-cursor/</loc>
+    <lastmod>2024-10-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://wiki.timothylim.is/clear-caches-drupal-7/</loc>
     <lastmod>2024-10-24T00:00:00+00:00</lastmod>
@@ -29,8 +32,12 @@
     <loc>https://wiki.timothylim.is/editing-a-static-site-with-obsidian/</loc>
     <lastmod>2024-10-22T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://wiki.timothylim.is/snippets/create-nextjs-app/</loc>
+  </url><url>
     <loc>https://wiki.timothylim.is/categories/</loc>
   </url><url>
     <loc>https://wiki.timothylim.is/edit-h5p-docs/</loc>
+  </url><url>
+    <loc>https://wiki.timothylim.is/snippets/</loc>
   </url>
 </urlset>

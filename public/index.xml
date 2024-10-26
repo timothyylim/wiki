@@ -16,6 +16,13 @@
       <description>&lt;h1 id=&#34;how-i-use-cursor&#34;&gt;&#xA;  How I Use Cursor&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#how-i-use-cursor&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.cursor.com&#34;&gt;Cursor&lt;/a&gt; is an AI powered Code Editor and although it is a fork of VSCode it differs greatly from it in being designed intentionally around AI workflows.&lt;/p&gt;&#xA;&lt;p&gt;The biggest problem I had with ChatGPT was copying and pasting the context for my programming problem. Cursor solves this by actually being aware of your entire codebase which means it can also offer suggestions across multiple files.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Tweeting From The Terminal</title>
+      <link>https://wiki.timothylim.is/tweeting-from-the-terminal/</link>
+      <pubDate>Sat, 26 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://wiki.timothylim.is/tweeting-from-the-terminal/</guid>
+      <description>&lt;h1 id=&#34;tweeting-from-the-terminal&#34;&gt;&#xA;  Tweeting From The Terminal&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#tweeting-from-the-terminal&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Some thoughts on building a script that allows users to tweet from the comfort of their terminal:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You need to use a browser to do auth&lt;/li&gt;&#xA;&lt;li&gt;Ideally you should save the token because they don&amp;rsquo;t expire, users have to revoke them&lt;/li&gt;&#xA;&lt;li&gt;This token can then be reused by the script&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
       <title>Clear Caches Drupal 7</title>
       <link>https://wiki.timothylim.is/clear-caches-drupal-7/</link>
       <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>

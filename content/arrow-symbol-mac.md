@@ -1,6 +1,6 @@
 ---
 title: Arrow Symbol In Mac
-date: 2024-10-27
+date: 2024-10-26
 tags:
   - snippet
 ---

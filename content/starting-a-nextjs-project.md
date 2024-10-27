@@ -31,5 +31,12 @@ export default function Home() {
 }
 ```
 
+Some notes:
 
+```
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+```
 

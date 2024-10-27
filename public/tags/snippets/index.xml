@@ -13,7 +13,7 @@
       <link>https://wiki.timothylim.is/tweeting-from-the-terminal/</link>
       <pubDate>Sat, 26 Oct 2024 00:00:00 +0000</pubDate>
       <guid>https://wiki.timothylim.is/tweeting-from-the-terminal/</guid>
-      <description>&lt;h1 id=&#34;tweeting-from-the-terminal&#34;&gt;&#xA;  Tweeting From The Terminal&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#tweeting-from-the-terminal&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Some thoughts on building a script that allows users to tweet from the comfort of their terminal:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You need to use a browser to do auth&lt;/li&gt;&#xA;&lt;li&gt;Ideally you should save the token because they don&amp;rsquo;t expire, users have to revoke them&lt;/li&gt;&#xA;&lt;li&gt;This token can then be reused by the script&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;h1 id=&#34;tweeting-from-the-terminal&#34;&gt;&#xA;  Tweeting From The Terminal&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#tweeting-from-the-terminal&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;I&amp;rsquo;m still working on open sourcing the code but it works something like this:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Set up an app at developer.twitter.com&lt;/li&gt;&#xA;&lt;li&gt;Use those credentials to do local authentication&lt;/li&gt;&#xA;&lt;li&gt;I use nodejs to run an express server so auth can happen in a browser&lt;/li&gt;&#xA;&lt;li&gt;Get the tokena and save it locally, it&amp;rsquo;s long lived so it can just be reused until revoked by the user&lt;/li&gt;&#xA;&lt;li&gt;Post using token&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
     <item>
       <title>Clear Caches Drupal 7</title>

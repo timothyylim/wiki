@@ -6,8 +6,14 @@ date: 2024-10-26
 ---
 # Tweeting From The Terminal
 
-Some thoughts on building a script that allows users to tweet from the comfort of their terminal:
-- You need to use a browser to do auth 
-- Ideally you should save the token because they don't expire, users have to revoke them
-- This token can then be reused by the script 
+I'm still working on open sourcing the code but it works something like this:
+1. Set up an app at developer.twitter.com
+2. Use those credentials to do local authentication 
+3. I use nodejs to run an express server so auth can happen in a browser 
+4. Get the tokena and save it locally, it's long lived so it can just be reused until revoked by the user 
+5. Post using token 
+
+
+
+
 

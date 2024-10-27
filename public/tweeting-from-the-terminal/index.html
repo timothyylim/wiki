@@ -7,19 +7,21 @@
   Tweeting From The Terminal
   #
 
-Some thoughts on building a script that allows users to tweet from the comfort of their terminal:
+I&rsquo;m still working on open sourcing the code but it works something like this:
 
-You need to use a browser to do auth
-Ideally you should save the token because they don&rsquo;t expire, users have to revoke them
-This token can then be reused by the script
+Set up an app at developer.twitter.com
+Use those credentials to do local authentication
+I use nodejs to run an express server so auth can happen in a browser
+Get the tokena and save it locally, it&rsquo;s long lived so it can just be reused until revoked by the user
+Post using token
 ">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="https://wiki.timothylim.is/tweeting-from-the-terminal/">
   <meta property="og:site_name" content="Tim&#39;s wiki">
   <meta property="og:title" content="Tweeting From The Terminal">
-  <meta property="og:description" content="Tweeting From The Terminal # Some thoughts on building a script that allows users to tweet from the comfort of their terminal:
-You need to use a browser to do auth Ideally you should save the token because they don’t expire, users have to revoke them This token can then be reused by the script">
+  <meta property="og:description" content="Tweeting From The Terminal # I’m still working on open sourcing the code but it works something like this:
+Set up an app at developer.twitter.com Use those credentials to do local authentication I use nodejs to run an express server so auth can happen in a browser Get the tokena and save it locally, it’s long lived so it can just be reused until revoked by the user Post using token">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:published_time" content="2024-10-26T00:00:00+00:00">
@@ -31,7 +33,7 @@ You need to use a browser to do auth Ideally you should save the token because t
 <link rel="canonical" href="https://wiki.timothylim.is/tweeting-from-the-terminal/">
 <link rel="stylesheet" href="/book.min.6c8b9d2a1fc95075ed7da46ca81060b39add8fff6741ac51259f768929281e2c.css" integrity="sha256-bIudKh/JUHXtfaRsqBBgs5rdj/9nQaxRJZ92iSkoHiw=" crossorigin="anonymous">
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/en.search.min.9f76cc9f7c9d9417401849da1087818e8776c46e300981435bb236ec7e276b8b.js" integrity="sha256-n3bMn3ydlBdAGEnaEIeBjod2xG4wCYFDW7I27H4na4s=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.f7a1d634f490c87ce05943dd93b7dea80683325576d4dfe9083ed706e41c48f6.js" integrity="sha256-96HWNPSQyHzgWUPdk7feqAaDMlV21N/pCD7XBuQcSPY=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -134,12 +136,14 @@ https://github.com/alex-shpak/hugo-book
   Tweeting From The Terminal
   <a class="anchor" href="#tweeting-from-the-terminal">#</a>
 </h1>
-<p>Some thoughts on building a script that allows users to tweet from the comfort of their terminal:</p>
-<ul>
-<li>You need to use a browser to do auth</li>
-<li>Ideally you should save the token because they don&rsquo;t expire, users have to revoke them</li>
-<li>This token can then be reused by the script</li>
-</ul>
+<p>I&rsquo;m still working on open sourcing the code but it works something like this:</p>
+<ol>
+<li>Set up an app at developer.twitter.com</li>
+<li>Use those credentials to do local authentication</li>
+<li>I use nodejs to run an express server so auth can happen in a browser</li>
+<li>Get the tokena and save it locally, it&rsquo;s long lived so it can just be reused until revoked by the user</li>
+<li>Post using token</li>
+</ol>
 </article>
  
       

@@ -2,7 +2,7 @@
 title: Arrow Symbol In Mac
 date: 2024-10-26
 tags:
-  - snippet
+  - snippets
 ---
 Go to: 
 

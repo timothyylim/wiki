@@ -14,4 +14,3 @@ I'm still working on open sourcing the code but it works something like this:
 5. Post using token 
 
 
-THIS IS AN EDIT

@@ -6,8 +6,15 @@
     <description>Recent content on Tim&#39;s wiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://wiki.timothylim.is/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NextJS on VPS</title>
+      <link>https://wiki.timothylim.is/nextjs-on-vps/</link>
+      <pubDate>Mon, 28 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://wiki.timothylim.is/nextjs-on-vps/</guid>
+      <description>&lt;h1 id=&#34;nextjs-on-vps&#34;&gt;&#xA;  NextJS on VPS&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#nextjs-on-vps&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Notes from &lt;a href=&#34;https://www.youtube.com/watch?v=vj34hX8jWM0&#34;&gt;this video&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Assuming that you&amp;rsquo;ve already set up your &lt;a href=&#34;https://wiki.timothylim.is/setting-up-an-ubuntu-server&#34;&gt;server&lt;/a&gt;, we can go ahead and get started.&lt;/p&gt;&#xA;&lt;h2 id=&#34;install-nvm&#34;&gt;&#xA;  Install &lt;code&gt;nvm&lt;/code&gt;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#install-nvm&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Install &lt;a href=&#34;https://github.com/nvm-sh/nvm&#34;&gt;nvm&lt;/a&gt; for managing node versions:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;then&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;source ~/.bashrc&#xA;nvm&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;and it should work.&lt;/p&gt;&#xA;&lt;p&gt;Install the latest version of node:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;nvm install --lts&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;install-and-configure-nginx&#34;&gt;&#xA;  Install and configure &lt;code&gt;nginx&lt;/code&gt;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#install-and-configure-nginx&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Install &lt;code&gt;nginx&lt;/code&gt; like so:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo apt-get install nginx&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;We need to configure &lt;code&gt;nginx&lt;/code&gt; to route traffic to our app:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Setting Up An Ubuntu Server</title>
       <link>https://wiki.timothylim.is/setting-up-an-ubuntu-server/</link>

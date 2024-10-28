@@ -17,7 +17,7 @@
 <link rel="canonical" href="https://wiki.timothylim.is/tags/snippets/">
 <link rel="stylesheet" href="/book.min.6c8b9d2a1fc95075ed7da46ca81060b39add8fff6741ac51259f768929281e2c.css" integrity="sha256-bIudKh/JUHXtfaRsqBBgs5rdj/9nQaxRJZ92iSkoHiw=" crossorigin="anonymous">
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/en.search.min.99b809fc7e4f95b7ae1747a7a7870a9c82839584d0c0bac354b17d94ce70dad4.js" integrity="sha256-mbgJ/H5PlbeuF0enp4cKnIKDlYTQwLrDVLF9lM5w2tQ=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.6bd43c932a809ad896bd8f672a30b7f6e0fc5e94935035ecd955c81b967ff0a0.js" integrity="sha256-a9Q8kyqAmtiWvY9nKjC39uD8XpSTUDXs2VXIG5Z/8KA=" crossorigin="anonymous"></script>
 <link rel="alternate" type="application/rss+xml" href="https://wiki.timothylim.is/tags/snippets/index.xml" title="Tim's wiki" />
 <!--
 Made with Book Theme
@@ -124,7 +124,7 @@ https://github.com/alex-shpak/hugo-book
       
         <li class="flex justify-between">
           <a href="/tags/snippets/">Snippets</a>
-          <span>6</span>
+          <span>7</span>
         </li>
       
         <li class="flex justify-between">
@@ -147,6 +147,58 @@ https://github.com/alex-shpak/hugo-book
 
       
       
+  
+  <article class="markdown book-post">
+    <h2>
+      <a href="/nextjs-on-vps/">NextJS on VPS</a>
+    </h2>
+    
+  <div class="flex align-center text-small book-post-date">
+    <img src="/svg/calendar.svg" class="book-icon " alt="" />
+    <span>October 28, 2024</span>
+  </div>
+
+
+
+  
+
+  
+  <div class="text-small">
+    
+      <a href="/tags/snippets/">Snippets</a>
+  </div>
+  
+
+
+    <p><h1 id="nextjs-on-vps">
+  NextJS on VPS
+  <a class="anchor" href="#nextjs-on-vps">#</a>
+</h1>
+<p>Notes from <a href="https://www.youtube.com/watch?v=vj34hX8jWM0">this video</a>.</p>
+<p>Assuming that you&rsquo;ve already set up your <a href="/setting-up-an-ubuntu-server">server</a>, we can go ahead and get started.</p>
+<h2 id="install-nvm">
+  Install <code>nvm</code>
+  <a class="anchor" href="#install-nvm">#</a>
+</h2>
+<p>Install <a href="https://github.com/nvm-sh/nvm">nvm</a> for managing node versions:</p>
+<pre tabindex="0"><code>curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+</code></pre><p>then</p>
+<pre tabindex="0"><code>source ~/.bashrc
+nvm
+</code></pre><p>and it should work.</p>
+<p>Install the latest version of node:</p>
+<pre tabindex="0"><code>nvm install --lts
+</code></pre><h2 id="install-and-configure-nginx">
+  Install and configure <code>nginx</code>
+  <a class="anchor" href="#install-and-configure-nginx">#</a>
+</h2>
+<p>Install <code>nginx</code> like so:</p>
+<pre tabindex="0"><code>sudo apt-get install nginx
+</code></pre><p>We need to configure <code>nginx</code> to route traffic to our app:</p>
+        <a href="/nextjs-on-vps/">...</a>
+      
+    </p>
+  </article>
   
   <article class="markdown book-post">
     <h2>
@@ -441,7 +493,7 @@ https://github.com/alex-shpak/hugo-book
       
         <li class="flex justify-between">
           <a href="/tags/snippets/">Snippets</a>
-          <span>6</span>
+          <span>7</span>
         </li>
       
         <li class="flex justify-between">

@@ -40,7 +40,7 @@ $ su - tim Then, check if sudo access works by running a sudo command, like list
 <link rel="canonical" href="https://wiki.timothylim.is/setting-up-an-ubuntu-server/">
 <link rel="stylesheet" href="/book.min.6c8b9d2a1fc95075ed7da46ca81060b39add8fff6741ac51259f768929281e2c.css" integrity="sha256-bIudKh/JUHXtfaRsqBBgs5rdj/9nQaxRJZ92iSkoHiw=" crossorigin="anonymous">
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/en.search.min.0dc8cf32b911b472b15c13d94533aba2e58ace93f2c171a17a63c1736084edd3.js" integrity="sha256-DcjPMrkRtHKxXBPZRTOrouWKzpPywXGhemPBc2CE7dM=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.99b809fc7e4f95b7ae1747a7a7870a9c82839584d0c0bac354b17d94ce70dad4.js" integrity="sha256-mbgJ/H5PlbeuF0enp4cKnIKDlYTQwLrDVLF9lM5w2tQ=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -160,7 +160,17 @@ https://github.com/alex-shpak/hugo-book
 <pre tabindex="0"><code>$ su - tim
 </code></pre><p>Then, check if sudo access works by running a sudo command, like listing the root directory:</p>
 <pre tabindex="0"><code>$ sudo ls /root
-</code></pre></article>
+</code></pre><p>Now let&rsquo;s make sure that you can ssh in as that user. First let&rsquo;s switch to the <code>tim</code> user if we haven&rsquo;t already:</p>
+<pre tabindex="0"><code>su - tim
+</code></pre><p><strong>Create the <code>.ssh</code> directory</strong> (if it doesn’t already exist) and set the appropriate permissions:</p>
+<pre tabindex="0"><code>mkdir -p ~/.ssh
+chmod 700 ~/.ssh
+</code></pre><p>Add your <code>ssh</code> key which is found in <code>~/.ssh/id_rsa.pub</code>:</p>
+<pre tabindex="0"><code>echo &#34;your-public-ssh-key&#34; &gt;&gt; ~/.ssh/authorized_keys
+</code></pre><p>Then set the appropriate permissions:</p>
+<pre tabindex="0"><code>chmod 600 ~/.ssh/authorized_keys
+</code></pre><p>and you can exit and then try to <code>ssh</code> in as <code>tim</code>.</p>
+</article>
  
       
 

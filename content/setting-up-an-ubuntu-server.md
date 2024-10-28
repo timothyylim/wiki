@@ -2,6 +2,7 @@
 title: Setting Up An Ubuntu Server
 tags:
   - snippets
+date: 2024-10-27
 ---
 # Setting Up An Ubuntu Server
 

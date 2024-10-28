@@ -6,8 +6,15 @@
     <description>Recent content on Tim&#39;s wiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 26 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://wiki.timothylim.is/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting Up An Ubuntu Server</title>
+      <link>https://wiki.timothylim.is/setting-up-an-ubuntu-server/</link>
+      <pubDate>Sun, 27 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://wiki.timothylim.is/setting-up-an-ubuntu-server/</guid>
+      <description>&lt;h1 id=&#34;setting-up-an-ubuntu-server&#34;&gt;&#xA;  Setting Up An Ubuntu Server&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#setting-up-an-ubuntu-server&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;provision-the-first-user&#34;&gt;&#xA;  Provision The First User&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#provision-the-first-user&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;It&amp;rsquo;s not a good idea to use &lt;code&gt;root&lt;/code&gt; so let&amp;rsquo;s set up the main user.&lt;/p&gt;&#xA;&lt;p&gt;Create the user:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ sudo adduser tim&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Add the user to the &lt;code&gt;sudo&lt;/code&gt; group:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ sudo usermod -aG sudo tim&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Verify sudo access by switching to the &lt;code&gt;tim&lt;/code&gt; user:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ su - tim&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Then, check if sudo access works by running a sudo command, like listing the root directory:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Arrow Symbol In Mac</title>
       <link>https://wiki.timothylim.is/arrow-symbol-mac/</link>
@@ -84,13 +91,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://wiki.timothylim.is/edit-h5p-docs/</guid>
       <description>&lt;h1 id=&#34;editing-this-page&#34;&gt;&#xA;  Editing this page&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#editing-this-page&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;hugo-setup&#34;&gt;&#xA;  Hugo setup&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#hugo-setup&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s get it running locally first:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ brew install hugo&#xA;$ git clone https://github.com/timothyylim/h5p-site&#xA;$ cd h5p-site&#xA;$ hugo serve&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Navigate to &lt;code&gt;http://localhost:1313/&lt;/code&gt; to see that it works.&lt;/p&gt;&#xA;&lt;h2 id=&#34;editing-the-site&#34;&gt;&#xA;  Editing the site&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#editing-the-site&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;You can open the repo in any text editor you wish, the posts will go under &lt;code&gt;/content&lt;/code&gt;. Note that images will go in &lt;code&gt;/content&lt;/code&gt; too until I find a better place to put them.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Setting Up An Ubuntu Server</title>
-      <link>https://wiki.timothylim.is/setting-up-an-ubuntu-server/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://wiki.timothylim.is/setting-up-an-ubuntu-server/</guid>
-      <description>&lt;h1 id=&#34;setting-up-an-ubuntu-server&#34;&gt;&#xA;  Setting Up An Ubuntu Server&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#setting-up-an-ubuntu-server&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;provision-the-first-user&#34;&gt;&#xA;  Provision The First User&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#provision-the-first-user&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;It&amp;rsquo;s not a good idea to use &lt;code&gt;root&lt;/code&gt; so let&amp;rsquo;s set up the main user.&lt;/p&gt;&#xA;&lt;p&gt;Create the user:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ sudo adduser tim&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Add the user to the &lt;code&gt;sudo&lt;/code&gt; group:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ sudo usermod -aG sudo tim&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Verify sudo access by switching to the &lt;code&gt;tim&lt;/code&gt; user:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ su - tim&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Then, check if sudo access works by running a sudo command, like listing the root directory:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

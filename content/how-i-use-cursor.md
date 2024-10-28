@@ -15,5 +15,3 @@ I use three different commands:
 - `CMD+l`- this opens a sidebar where I can have longer ranging dialogues with the AI
 
 You can also press `CMD+Enter` to accept changes. 
-
-Hi TORMOD 

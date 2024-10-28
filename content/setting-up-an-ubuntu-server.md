@@ -40,7 +40,7 @@ Now let's make sure that you can ssh in as that user. First let's switch to the 
 su - tim
 ```
 
-Create the `.ssh` directory** (if it doesn’t already exist) and set the appropriate permissions:
+Create the `.ssh` directory (if it doesn’t already exist) and set the appropriate permissions:
 
 ```
 mkdir -p ~/.ssh

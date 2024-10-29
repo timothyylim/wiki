@@ -120,3 +120,10 @@ and visit your domain or IP. It should work
 npm i -g pm2 
 pm2 start npm --name "birdseye" -- run dev
 ```
+
+
+---
+
+Other resources:
+- https://richardkovacs.dev/blog/bring-your-own-nextjs
+- https://mohamedyamani.com/blog/how-to-deploy-nextjs-application-to-vps-using-nginx-and-pm2/

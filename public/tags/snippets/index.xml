@@ -6,8 +6,15 @@
     <description>Recent content in Snippets on Tim&#39;s wiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://wiki.timothylim.is/tags/snippets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mac Shortcuts</title>
+      <link>https://wiki.timothylim.is/mac-shortcuts/</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://wiki.timothylim.is/mac-shortcuts/</guid>
+      <description>&lt;h1 id=&#34;mac-shortcuts&#34;&gt;&#xA;  Mac Shortcuts&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#mac-shortcuts&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;mail&#34;&gt;&#xA;  Mail&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#mail&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Send mail: &lt;code&gt;Shift + CMD + D&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Archive: &lt;code&gt;Ctrl + CMD + a&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>github actions to deploy a nextjs site with shadcn</title>
       <link>https://wiki.timothylim.is/github-actions-to-deploy-nextjs/</link>

@@ -1,6 +1,8 @@
 ---
 title: Mac Shortcuts
 date: 2024-10-30
+tags:
+  - snippets
 ---
 # Mac Shortcuts 
 

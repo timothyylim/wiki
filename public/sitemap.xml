@@ -3,7 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://wiki.timothylim.is/</loc>
-    <lastmod>2024-10-30T00:00:00+00:00</lastmod>
+    <lastmod>2024-10-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wiki.timothylim.is/my-first-stream/</loc>
+    <lastmod>2024-10-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://wiki.timothylim.is/blogging-at-the-speed-of-thought/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
@@ -68,7 +71,5 @@
     <loc>https://wiki.timothylim.is/categories/</loc>
   </url><url>
     <loc>https://wiki.timothylim.is/edit-h5p-docs/</loc>
-  </url><url>
-    <loc>https://wiki.timothylim.is/my-first-stream/</loc>
   </url>
 </urlset>

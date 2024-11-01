@@ -6,8 +6,15 @@
     <description>Recent content on Tim&#39;s wiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 31 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://wiki.timothylim.is/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Stream</title>
+      <link>https://wiki.timothylim.is/my-first-stream/</link>
+      <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://wiki.timothylim.is/my-first-stream/</guid>
+      <description>&lt;h1 id=&#34;my-first-stream&#34;&gt;&#xA;  My First Stream&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#my-first-stream&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Hello this is a blog post!&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Blogging At The Speed of Thought</title>
       <link>https://wiki.timothylim.is/blogging-at-the-speed-of-thought/</link>
@@ -133,13 +140,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://wiki.timothylim.is/edit-h5p-docs/</guid>
       <description>&lt;h1 id=&#34;editing-this-page&#34;&gt;&#xA;  Editing this page&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#editing-this-page&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;hugo-setup&#34;&gt;&#xA;  Hugo setup&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#hugo-setup&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s get it running locally first:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ brew install hugo&#xA;$ git clone https://github.com/timothyylim/h5p-site&#xA;$ cd h5p-site&#xA;$ hugo serve&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Navigate to &lt;code&gt;http://localhost:1313/&lt;/code&gt; to see that it works.&lt;/p&gt;&#xA;&lt;h2 id=&#34;editing-the-site&#34;&gt;&#xA;  Editing the site&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#editing-the-site&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;You can open the repo in any text editor you wish, the posts will go under &lt;code&gt;/content&lt;/code&gt;. Note that images will go in &lt;code&gt;/content&lt;/code&gt; too until I find a better place to put them.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My First Stream</title>
-      <link>https://wiki.timothylim.is/my-first-stream/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://wiki.timothylim.is/my-first-stream/</guid>
-      <description>&lt;h1 id=&#34;my-first-stream&#34;&gt;&#xA;  My First Stream&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#my-first-stream&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Hello this is a blog post!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

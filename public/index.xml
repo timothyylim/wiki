@@ -6,8 +6,15 @@
     <description>Recent content on Tim&#39;s wiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://wiki.timothylim.is/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automating legal software</title>
+      <link>https://wiki.timothylim.is/legal-software/</link>
+      <pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://wiki.timothylim.is/legal-software/</guid>
+      <description>&lt;h1 id=&#34;some-thoughts-on-automating-legal-processes&#34;&gt;&#xA;  Some thoughts on automating legal processes&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#some-thoughts-on-automating-legal-processes&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A big inspiration is &lt;a href=&#34;http://plymouthstreet.com&#34;&gt;Plymouth Street&lt;/a&gt; which is the best in class legal firm for handling immigration to the US, specifically o1&lt;/li&gt;&#xA;&lt;li&gt;They target tech workers who have both money and an appreciation for good processes&lt;/li&gt;&#xA;&lt;li&gt;Have a look at their dashboard, see how th something as opaque as an immigration process can give clients transparency and then a feeling of security&lt;/li&gt;&#xA;&lt;li&gt;Too many legal processes require a lot of back and forth in deep email chains where things are lost&lt;/li&gt;&#xA;&lt;li&gt;Software for legal firms already exist (&lt;a href=&#34;https://www.mycase.com&#34;&gt;https://www.mycase.com&lt;/a&gt;) but perhaps there is a play for jurisdiction specific automations (i.e. checking the land registry of a specific country) or making custom dashboards for a specific flow like Plymouth does&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Blogging At The Speed of Thought</title>
       <link>https://wiki.timothylim.is/blogging-at-the-speed-of-thought/</link>
@@ -126,6 +133,13 @@
       <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
       <guid>https://wiki.timothylim.is/editing-a-static-site-with-obsidian/</guid>
       <description>&lt;h1 id=&#34;editing-a-static-site-with-obsidian&#34;&gt;&#xA;  Editing A Static Site With Obsidian&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#editing-a-static-site-with-obsidian&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Let me tell you about how this site works because I love it.&lt;/p&gt;&#xA;&lt;p&gt;My setup has two components:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;A &lt;a href=&#34;https://gohugo.io&#34;&gt;hugo site&lt;/a&gt; that lives at &lt;code&gt;~/repos/wiki&lt;/code&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;This particular &lt;a href=&#34;https://themes.gohugo.io/themes/hugo-book/&#34;&gt;hugo theme&lt;/a&gt; expects content to be in &lt;code&gt;wiki/content&lt;/code&gt; and &lt;code&gt;wiki/content/docs&lt;/code&gt; if it is to be shown in the sidebar&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;An Obsidian Vault that lives at &lt;code&gt;~/repos/vault&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;strong&gt;Now for the magic:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;We do a symlink from &lt;code&gt;wiki/content&lt;/code&gt; &lt;em&gt;into&lt;/em&gt; &lt;code&gt;~/repos/vault&lt;/code&gt; which means that I can use Obsidian&amp;rsquo;s super fast file traversal to edit my personal notes as well as the wiki and most importantly feed my vim addiction!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://wiki.timothylim.is/docker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.timothylim.is/docker/</guid>
+      <description>&lt;p&gt;docker stop $(docker ps -aq) &amp;amp;&amp;amp; docker system prune -af &amp;ndash;volumes&lt;/p&gt;&#xA;&lt;p&gt;docker-compose down -v&#xA;docker-compose up &amp;ndash;build -d&lt;/p&gt;</description>
     </item>
     <item>
       <title>Editing H5P docs</title>

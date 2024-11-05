@@ -1,6 +1,6 @@
 ---
 title: Automating legal software
-date: 2024-11-05
+date: 2024-11-04
 tags:
   - snippets
 ---

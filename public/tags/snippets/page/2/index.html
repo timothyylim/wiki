@@ -17,7 +17,7 @@
 <link rel="canonical" href="https://wiki.timothylim.is/tags/snippets/">
 <link rel="stylesheet" href="/book.min.6c8b9d2a1fc95075ed7da46ca81060b39add8fff6741ac51259f768929281e2c.css" integrity="sha256-bIudKh/JUHXtfaRsqBBgs5rdj/9nQaxRJZ92iSkoHiw=" crossorigin="anonymous">
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/en.search.min.f8807054a7942a91510d3835103e25e74c0049d824a749b0c692751fe6e227fe.js" integrity="sha256-&#43;IBwVKeUKpFRDTg1ED4l50wASdgkp0mwxpJ1H&#43;biJ/4=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.60af479a517aafd24998f4b543147fc30638042118a1badc9d408232c97a4d92.js" integrity="sha256-YK9HmlF6r9JJmPS1QxR/wwY4BCEYobrcnUCCMsl6TZI=" crossorigin="anonymous"></script>
 <link rel="alternate" type="application/rss+xml" href="https://wiki.timothylim.is/tags/snippets/index.xml" title="Tim's wiki" />
 <!--
 Made with Book Theme
@@ -124,7 +124,7 @@ https://github.com/alex-shpak/hugo-book
       
         <li class="flex justify-between">
           <a href="/tags/snippets/">Snippets</a>
-          <span>12</span>
+          <span>13</span>
         </li>
       
         <li class="flex justify-between">
@@ -147,6 +147,55 @@ https://github.com/alex-shpak/hugo-book
 
       
       
+  
+  <article class="markdown book-post">
+    <h2>
+      <a href="/starting-a-nextjs-project/">Starting A NextJS Project</a>
+    </h2>
+    
+  <div class="flex align-center text-small book-post-date">
+    <img src="/svg/calendar.svg" class="book-icon " alt="" />
+    <span>October 26, 2024</span>
+  </div>
+
+
+
+  
+
+  
+  <div class="text-small">
+    
+      <a href="/tags/snippets/">Snippets</a>
+  </div>
+  
+
+
+    <p><h1 id="starting-a-nextjs-project">
+  Starting a NextJS project
+  <a class="anchor" href="#starting-a-nextjs-project">#</a>
+</h1>
+<pre tabindex="0"><code>npx create-next-app@latest
+</code></pre><p>Set up <code>shadcn/ui</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd my-app
+</span></span><span style="display:flex;"><span>npx shadcn@latest init
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npx shadcn@latest add button
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">Button</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#34;@/components/ui/button&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">export</span> <span style="color:#66d9ef">default</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">Home</span>() {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> (
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">div</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">Button</span><span style="color:#f92672">&gt;</span><span style="color:#a6e22e">Click</span> <span style="color:#a6e22e">me</span><span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/Button&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/div&gt;</span>
+</span></span><span style="display:flex;"><span>  )
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Some notes:</p>
+<pre tabindex="0"><code>  &#34;compilerOptions&#34;: {
+    &#34;baseUrl&#34;: &#34;.&#34;,
+    &#34;paths&#34;: {
+      &#34;@/*&#34;: [&#34;src/*&#34;]
+</code></pre>
+    </p>
+  </article>
   
   <article class="markdown book-post">
     <h2>
@@ -291,7 +340,7 @@ https://github.com/alex-shpak/hugo-book
       
         <li class="flex justify-between">
           <a href="/tags/snippets/">Snippets</a>
-          <span>12</span>
+          <span>13</span>
         </li>
       
         <li class="flex justify-between">

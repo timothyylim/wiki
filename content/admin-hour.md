@@ -4,7 +4,7 @@ tags:
   - snippets
 date: 2024-11-06
 ---
-# AdminHour - colloborative life admin
+# AdminHour - collaborative life admin
 
 - It's difficult to do things like taxes alone, why don't we do it together?
 - As a user I want to create publicise an event for my friends to join on a zoom call and we will do our personal life admin tasks together 

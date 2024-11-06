@@ -37,4 +37,5 @@ date: 2024-11-04
 	- https://pinboard.in - the original bookmarking app, built after Yahoo shut down delicious 
 	- Google Reader - RIP 
 	- https://hypertext.joodaloop.com/ - a great hypertext library 
+	- https://x.com/msimoni/status/1848454705707684158
 

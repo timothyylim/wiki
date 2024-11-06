@@ -8,3 +8,4 @@ Think of software as a railroad. It is infrastructure to do heavy information tr
 
 You want to find out when there's a mismatch between the information being sent and the path it's being sent upon. Lots video sent over emails probably means that a video uploading software should be built. When you see containers being transported on footpaths, it's probably time to lay down the railroad. 
 
+There's also a secondary point about repitition. If you're doing something a lot, just automate it.

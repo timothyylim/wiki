@@ -2,6 +2,7 @@
 title: AdminHour Idea Sketch
 tags:
   - snippets
+date: 2024-11-06
 ---
 # AdminHour - colloborative life admin
 

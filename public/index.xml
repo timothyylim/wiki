@@ -6,8 +6,15 @@
     <description>Recent content on Tim&#39;s wiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://wiki.timothylim.is/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AdminHour Idea Sketch</title>
+      <link>https://wiki.timothylim.is/admin-hour/</link>
+      <pubDate>Wed, 06 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://wiki.timothylim.is/admin-hour/</guid>
+      <description>&lt;h1 id=&#34;adminhour---colloborative-life-admin&#34;&gt;&#xA;  AdminHour - colloborative life admin&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#adminhour---colloborative-life-admin&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;It&amp;rsquo;s difficult to do things like taxes alone, why don&amp;rsquo;t we do it together?&lt;/li&gt;&#xA;&lt;li&gt;As a user I want to create publicise an event for my friends to join on a zoom call and we will do our personal life admin tasks together&lt;/li&gt;&#xA;&lt;li&gt;Similar ideas:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.shutupwrite.com&#34;&gt;https://www.shutupwrite.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://hypertextcollective.com&#34;&gt;https://hypertextcollective.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Automating legal software</title>
       <link>https://wiki.timothylim.is/legal-software/</link>
@@ -147,13 +154,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://wiki.timothylim.is/docker/</guid>
       <description>&lt;p&gt;docker stop $(docker ps -aq) &amp;amp;&amp;amp; docker system prune -af &amp;ndash;volumes&lt;/p&gt;&#xA;&lt;p&gt;docker-compose down -v&#xA;docker-compose up &amp;ndash;build -d&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>AdminHour Idea Sketch</title>
-      <link>https://wiki.timothylim.is/admin-hour/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://wiki.timothylim.is/admin-hour/</guid>
-      <description>&lt;h1 id=&#34;adminhour---colloborative-life-admin&#34;&gt;&#xA;  AdminHour - colloborative life admin&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#adminhour---colloborative-life-admin&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;It&amp;rsquo;s difficult to do things like taxes alone, why don&amp;rsquo;t we do it together?&lt;/li&gt;&#xA;&lt;li&gt;As a user I want to create publicise an event for my friends to join on a zoom call and we will do our personal life admin tasks together&lt;/li&gt;&#xA;&lt;li&gt;Similar ideas:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.shutupwrite.com&#34;&gt;https://www.shutupwrite.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://hypertextcollective.com&#34;&gt;https://hypertextcollective.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Editing H5P docs</title>

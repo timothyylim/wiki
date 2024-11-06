@@ -6,8 +6,15 @@
     <description>Recent content in Snippets on Tim&#39;s wiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://wiki.timothylim.is/tags/snippets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AdminHour Idea Sketch</title>
+      <link>https://wiki.timothylim.is/admin-hour/</link>
+      <pubDate>Wed, 06 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://wiki.timothylim.is/admin-hour/</guid>
+      <description>&lt;h1 id=&#34;adminhour---colloborative-life-admin&#34;&gt;&#xA;  AdminHour - colloborative life admin&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#adminhour---colloborative-life-admin&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;It&amp;rsquo;s difficult to do things like taxes alone, why don&amp;rsquo;t we do it together?&lt;/li&gt;&#xA;&lt;li&gt;As a user I want to create publicise an event for my friends to join on a zoom call and we will do our personal life admin tasks together&lt;/li&gt;&#xA;&lt;li&gt;Similar ideas:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.shutupwrite.com&#34;&gt;https://www.shutupwrite.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://hypertextcollective.com&#34;&gt;https://hypertextcollective.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Automating legal software</title>
       <link>https://wiki.timothylim.is/legal-software/</link>
@@ -98,13 +105,6 @@
       <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
       <guid>https://wiki.timothylim.is/clear-caches-drupal-7/</guid>
       <description>&lt;h1 id=&#34;clear-caches-drupal-7&#34;&gt;&#xA;  Clear Caches Drupal 7&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#clear-caches-drupal-7&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Navigate to: Home -&amp;gt; Admininstration -&amp;gt; Configuration -&amp;gt; Development&lt;/p&gt;&#xA;&lt;p&gt;Or just click:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://64.227.118.57/?q=admin/config/development/performance&#34;&gt;https://64.227.118.57/?q=admin/config/development/performance&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>AdminHour Idea Sketch</title>
-      <link>https://wiki.timothylim.is/admin-hour/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://wiki.timothylim.is/admin-hour/</guid>
-      <description>&lt;h1 id=&#34;adminhour---colloborative-life-admin&#34;&gt;&#xA;  AdminHour - colloborative life admin&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#adminhour---colloborative-life-admin&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;It&amp;rsquo;s difficult to do things like taxes alone, why don&amp;rsquo;t we do it together?&lt;/li&gt;&#xA;&lt;li&gt;As a user I want to create publicise an event for my friends to join on a zoom call and we will do our personal life admin tasks together&lt;/li&gt;&#xA;&lt;li&gt;Similar ideas:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.shutupwrite.com&#34;&gt;https://www.shutupwrite.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://hypertextcollective.com&#34;&gt;https://hypertextcollective.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

@@ -23,6 +23,13 @@
       <description>&lt;h1 id=&#34;at-the-heart-of-every-business-is-an-email-chain-with-too-many-pdfs-or-a-spreadsheet-that-only-one-person-understands&#34;&gt;&#xA;  At The Heart of Every Business Is An Email Chain With Too Many PDFs or A Spreadsheet That Only One Person Understands&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#at-the-heart-of-every-business-is-an-email-chain-with-too-many-pdfs-or-a-spreadsheet-that-only-one-person-understands&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;As far as software has come, millions of dollars still depend on either:&#xA;a. Convoluted email chains that carry destiny defining PDFs&#xA;b. An elaborate spreadsheet that keeps the entire state of the company&lt;/p&gt;&#xA;&lt;p&gt;As the cost of programming plummets, it is not possible to build bespoke tools for companies to not have to deal with either of those two things.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>When To Automate</title>
+      <link>https://wiki.timothylim.is/when-to-automate/</link>
+      <pubDate>Wed, 06 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://wiki.timothylim.is/when-to-automate/</guid>
+      <description>&lt;h1 id=&#34;when-to-automate&#34;&gt;&#xA;  When To Automate?&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#when-to-automate&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Think of software as a railroad. It is infrastructure to do heavy information transport. There are a lot of processes going on in companies, some big some small.&lt;/p&gt;&#xA;&lt;p&gt;You want to find out when there&amp;rsquo;s a mismatch between the information being sent and the path it&amp;rsquo;s being sent upon. Lots video sent over emails probably means that a video uploading software should be built. When you see containers being transported on footpaths, it&amp;rsquo;s probably time to lay down the railroad.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Automating legal software</title>
       <link>https://wiki.timothylim.is/legal-software/</link>
       <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>

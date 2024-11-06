@@ -1,6 +1,6 @@
 ---
 title: When To Automate
-date: 2024-11-07
+date: 2024-11-06
 ---
 # When To Automate?
 

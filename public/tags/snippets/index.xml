@@ -6,8 +6,15 @@
     <description>Recent content in Snippets on Tim&#39;s wiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://wiki.timothylim.is/tags/snippets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NextJS Authentication With Twitter</title>
+      <link>https://wiki.timothylim.is/nextjs-twitter-auth/</link>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://wiki.timothylim.is/nextjs-twitter-auth/</guid>
+      <description>&lt;h1 id=&#34;nextjs-authentication-with-twitter&#34;&gt;&#xA;  NextJS Authentication With Twitter&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#nextjs-authentication-with-twitter&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;step-1-install-nextjs&#34;&gt;&#xA;  Step 1. Install NextJS&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#step-1-install-nextjs&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Install NextJS&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;npx create-next-app@latest&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;step-2-set-up-a-twitter-developer-account&#34;&gt;&#xA;  Step 2. Set up a twitter developer account&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#step-2-set-up-a-twitter-developer-account&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Go here: &lt;a href=&#34;https://developer.x.com/en&#34;&gt;https://developer.x.com/en&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Copy and save all the credentials&lt;/p&gt;&#xA;&lt;h2 id=&#34;step-3-set-up-your-env-file&#34;&gt;&#xA;  Step 3. Set up your &lt;code&gt;.env&lt;/code&gt; file&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#step-3-set-up-your-env-file&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;TWITTER_CLIENT_ID=&amp;#34;&amp;lt;your code&amp;gt;&amp;#34;&#xA;TWITTER_CLIENT_SECRET=&amp;#34;&amp;lt;your code&amp;gt;&amp;#34;&#xA;NEXTAUTH_SECRET=&amp;#34;supersecretkey123&amp;#34;&#xA;NEXTAUTH_URL=http://localhost:3000&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Make sure to update the app settings. Follow this guide (I can&amp;rsquo;t be bothered to do all the screenshots right now):&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spacejelly.dev/posts/how-to-authenticate-next-js-apps-with-twitter-nextauth-js&#34;&gt;https://spacejelly.dev/posts/how-to-authenticate-next-js-apps-with-twitter-nextauth-js&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;step-2-install-and-setup-next-auth&#34;&gt;&#xA;  Step 2. Install and setup next-auth&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#step-2-install-and-setup-next-auth&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;npm install next-auth&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Create this file in &lt;code&gt;/src/app/api/auth/[...nextauth]/route.ts&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>AdminHour Idea Sketch</title>
       <link>https://wiki.timothylim.is/admin-hour/</link>

@@ -17,7 +17,7 @@
 <link rel="canonical" href="https://wiki.timothylim.is/tags/snippets/">
 <link rel="stylesheet" href="/book.min.6c8b9d2a1fc95075ed7da46ca81060b39add8fff6741ac51259f768929281e2c.css" integrity="sha256-bIudKh/JUHXtfaRsqBBgs5rdj/9nQaxRJZ92iSkoHiw=" crossorigin="anonymous">
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/en.search.min.72653a9c379b1b56946de5040c04ccbf665f05d88cbfe5f0437d2734aefbaeb2.js" integrity="sha256-cmU6nDebG1aUbeUEDATMv2ZfBdiMv&#43;XwQ30nNK77rrI=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.4a5e13c977bb536673d1edd51ef8d751b79a1b7bd4169702cac5aa8d3581a787.js" integrity="sha256-Sl4TyXe7U2Zz0e3VHvjXUbeaG3vUFpcCysWqjTWBp4c=" crossorigin="anonymous"></script>
 <link rel="alternate" type="application/rss+xml" href="https://wiki.timothylim.is/tags/snippets/index.xml" title="Tim's wiki" />
 <!--
 Made with Book Theme
@@ -124,7 +124,7 @@ https://github.com/alex-shpak/hugo-book
       
         <li class="flex justify-between">
           <a href="/tags/snippets/">Snippets</a>
-          <span>14</span>
+          <span>15</span>
         </li>
       
         <li class="flex justify-between">
@@ -147,6 +147,65 @@ https://github.com/alex-shpak/hugo-book
 
       
       
+  
+  <article class="markdown book-post">
+    <h2>
+      <a href="/nextjs-twitter-auth/">NextJS Authentication With Twitter</a>
+    </h2>
+    
+  <div class="flex align-center text-small book-post-date">
+    <img src="/svg/calendar.svg" class="book-icon " alt="" />
+    <span>November 7, 2024</span>
+  </div>
+
+
+
+  
+
+  
+  <div class="text-small">
+    
+      <a href="/tags/snippets/">Snippets</a>
+  </div>
+  
+
+
+    <p><h1 id="nextjs-authentication-with-twitter">
+  NextJS Authentication With Twitter
+  <a class="anchor" href="#nextjs-authentication-with-twitter">#</a>
+</h1>
+<h2 id="step-1-install-nextjs">
+  Step 1. Install NextJS
+  <a class="anchor" href="#step-1-install-nextjs">#</a>
+</h2>
+<p>Install NextJS</p>
+<pre tabindex="0"><code>npx create-next-app@latest
+</code></pre><h2 id="step-2-set-up-a-twitter-developer-account">
+  Step 2. Set up a twitter developer account
+  <a class="anchor" href="#step-2-set-up-a-twitter-developer-account">#</a>
+</h2>
+<p>Go here: <a href="https://developer.x.com/en">https://developer.x.com/en</a></p>
+<p>Copy and save all the credentials</p>
+<h2 id="step-3-set-up-your-env-file">
+  Step 3. Set up your <code>.env</code> file
+  <a class="anchor" href="#step-3-set-up-your-env-file">#</a>
+</h2>
+<pre tabindex="0"><code>TWITTER_CLIENT_ID=&#34;&lt;your code&gt;&#34;
+TWITTER_CLIENT_SECRET=&#34;&lt;your code&gt;&#34;
+NEXTAUTH_SECRET=&#34;supersecretkey123&#34;
+NEXTAUTH_URL=http://localhost:3000
+</code></pre><p>Make sure to update the app settings. Follow this guide (I can&rsquo;t be bothered to do all the screenshots right now):</p>
+<p><a href="https://spacejelly.dev/posts/how-to-authenticate-next-js-apps-with-twitter-nextauth-js">https://spacejelly.dev/posts/how-to-authenticate-next-js-apps-with-twitter-nextauth-js</a></p>
+<h2 id="step-2-install-and-setup-next-auth">
+  Step 2. Install and setup next-auth
+  <a class="anchor" href="#step-2-install-and-setup-next-auth">#</a>
+</h2>
+<pre tabindex="0"><code>npm install next-auth
+</code></pre><p>Create this file in <code>/src/app/api/auth/[...nextauth]/route.ts</code></p>
+        <a href="/nextjs-twitter-auth/">...</a>
+      
+    </p>
+  </article>
   
   <article class="markdown book-post">
     <h2>
@@ -538,35 +597,6 @@ pm2 start npm --name &#34;birdseye&#34; -- run start
     </p>
   </article>
   
-  <article class="markdown book-post">
-    <h2>
-      <a href="/arrow-symbol-mac/">Arrow Symbol In Mac</a>
-    </h2>
-    
-  <div class="flex align-center text-small book-post-date">
-    <img src="/svg/calendar.svg" class="book-icon " alt="" />
-    <span>October 26, 2024</span>
-  </div>
-
-
-
-  
-
-  
-  <div class="text-small">
-    
-      <a href="/tags/snippets/">Snippets</a>
-  </div>
-  
-
-
-    <p><p>Go to:</p>
-<pre tabindex="0"><code>System Preferences &gt; Keyboard &gt; Text 
-</code></pre><p>Then:</p>
-<p>Replace: &ndash;&gt;  With: →</p>
-    </p>
-  </article>
-  
 
   
     <ul class="pagination pagination-default">
@@ -641,7 +671,7 @@ pm2 start npm --name &#34;birdseye&#34; -- run start
       
         <li class="flex justify-between">
           <a href="/tags/snippets/">Snippets</a>
-          <span>14</span>
+          <span>15</span>
         </li>
       
         <li class="flex justify-between">

@@ -18,6 +18,10 @@ npx create-next-app@latest
 
 Go here: https://developer.x.com/en
 
+Make a project then an app
+
+Read this if you get stuck: https://spacejelly.dev/posts/how-to-authenticate-next-js-apps-with-twitter-nextauth-js
+
 Copy and save all the credentials
 
 ## Step 3. Set up your `.env` file

@@ -15,3 +15,4 @@ Not only that, Obsidian supports [vim](https://no.wikipedia.org/wiki/Vim) keybin
 When I'm done, I have a command set up where I run `wiki-push` which does some work behind the scenes to update my Github where this blog is hosted. 
 
 If you want more technical details on how this setup works have a look at this [article](/editing-a-static-site-with-obsidian).
+

@@ -6,15 +6,8 @@
     <description>Recent content on Tim&#39;s wiki</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://wiki.timothylim.is/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>salmon thai curry</title>
-      <link>https://wiki.timothylim.is/salmon-thai-curry/</link>
-      <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://wiki.timothylim.is/salmon-thai-curry/</guid>
-      <description>&lt;h1 id=&#34;salmon-thai-curry&#34;&gt;&#xA;  salmon thai curry&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#salmon-thai-curry&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;~ 4 portions&lt;/p&gt;&#xA;&lt;h2 id=&#34;ingredients&#34;&gt;&#xA;  Ingredients:&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#ingredients&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;4 salmon fillets (frozen works)&lt;/li&gt;&#xA;&lt;li&gt;Ginger&lt;/li&gt;&#xA;&lt;li&gt;Garlic&lt;/li&gt;&#xA;&lt;li&gt;Fresh chilli&lt;/li&gt;&#xA;&lt;li&gt;Red thai curry paste&lt;/li&gt;&#xA;&lt;li&gt;1 can (400ml) coconut milk&lt;/li&gt;&#xA;&lt;li&gt;1 tablespoon fish sauce (optional, for extra umami flavor)&lt;/li&gt;&#xA;&lt;li&gt;1-2 tablespoons soy sauce (to taste)&lt;/li&gt;&#xA;&lt;li&gt;1 teaspoon sugar or honey (optional, for balance)&lt;/li&gt;&#xA;&lt;li&gt;1 bell pepper, sliced (optional, for extra texture)&lt;/li&gt;&#xA;&lt;li&gt;A handful of fresh spinach or bok choy (optional, for greens)&lt;/li&gt;&#xA;&lt;li&gt;Steamed jasmine rice, to serve&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;instructions&#34;&gt;&#xA;  Instructions:&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#instructions&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Prep the Ingredients&lt;/strong&gt;: Start by grating the ginger, mincing the garlic, and slicing the chili. If using fresh salmon, cut it into bite-sized pieces. If you’re using frozen fillets, make sure they’re thawed and cut as well.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>NextJS Authentication With Twitter</title>
       <link>https://wiki.timothylim.is/nextjs-twitter-auth/</link>
@@ -175,6 +168,13 @@
       <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
       <guid>https://wiki.timothylim.is/editing-a-static-site-with-obsidian/</guid>
       <description>&lt;h1 id=&#34;editing-a-static-site-with-obsidian&#34;&gt;&#xA;  Editing A Static Site With Obsidian&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#editing-a-static-site-with-obsidian&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Let me tell you about how this site works because I love it.&lt;/p&gt;&#xA;&lt;p&gt;My setup has two components:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;A &lt;a href=&#34;https://gohugo.io&#34;&gt;hugo site&lt;/a&gt; that lives at &lt;code&gt;~/repos/wiki&lt;/code&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;This particular &lt;a href=&#34;https://themes.gohugo.io/themes/hugo-book/&#34;&gt;hugo theme&lt;/a&gt; expects content to be in &lt;code&gt;wiki/content&lt;/code&gt; and &lt;code&gt;wiki/content/docs&lt;/code&gt; if it is to be shown in the sidebar&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;An Obsidian Vault that lives at &lt;code&gt;~/repos/vault&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;strong&gt;Now for the magic:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;We do a symlink from &lt;code&gt;wiki/content&lt;/code&gt; &lt;em&gt;into&lt;/em&gt; &lt;code&gt;~/repos/vault&lt;/code&gt; which means that I can use Obsidian&amp;rsquo;s super fast file traversal to edit my personal notes as well as the wiki and most importantly feed my vim addiction!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://wiki.timothylim.is/drizzle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wiki.timothylim.is/drizzle/</guid>
+      <description>&lt;p&gt;Drizzle commands&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;npx drizzle-kit migrage&#xA;npx drizzle-kit push&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>Editing H5P docs</title>

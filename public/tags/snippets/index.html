@@ -17,7 +17,7 @@
 <link rel="canonical" href="https://wiki.timothylim.is/tags/snippets/">
 <link rel="stylesheet" href="/book.min.6c8b9d2a1fc95075ed7da46ca81060b39add8fff6741ac51259f768929281e2c.css" integrity="sha256-bIudKh/JUHXtfaRsqBBgs5rdj/9nQaxRJZ92iSkoHiw=" crossorigin="anonymous">
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/en.search.min.1c37f4f9b24ff3aa6466bb2f061e60ef5b83d687daba9aca089424155a67d508.js" integrity="sha256-HDf0&#43;bJP86pkZrsvBh5g71uD1ofauprKCJQkFVpn1Qg=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.4b2e0d2b7ab5f5a4624355efb621897edcb9ab97c07be7611491ef44dc3612b7.js" integrity="sha256-Sy4NK3q19aRiQ1XvtiGJfty5q5fAe&#43;dhFJHvRNw2Erc=" crossorigin="anonymous"></script>
 <link rel="alternate" type="application/rss+xml" href="https://wiki.timothylim.is/tags/snippets/index.xml" title="Tim's wiki" />
 <!--
 Made with Book Theme
@@ -124,7 +124,7 @@ https://github.com/alex-shpak/hugo-book
       
         <li class="flex justify-between">
           <a href="/tags/snippets/">Snippets</a>
-          <span>16</span>
+          <span>15</span>
         </li>
       
         <li class="flex justify-between">
@@ -147,63 +147,6 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  
-  <article class="markdown book-post">
-    <h2>
-      <a href="/salmon-thai-curry/">salmon thai curry</a>
-    </h2>
-    
-  <div class="flex align-center text-small book-post-date">
-    <img src="/svg/calendar.svg" class="book-icon " alt="" />
-    <span>November 8, 2024</span>
-  </div>
-
-
-
-  
-
-  
-  <div class="text-small">
-    
-      <a href="/tags/snippets/">Snippets</a>
-  </div>
-  
-
-
-    <p><h1 id="salmon-thai-curry">
-  salmon thai curry
-  <a class="anchor" href="#salmon-thai-curry">#</a>
-</h1>
-<p>~ 4 portions</p>
-<h2 id="ingredients">
-  Ingredients:
-  <a class="anchor" href="#ingredients">#</a>
-</h2>
-<ul>
-<li>4 salmon fillets (frozen works)</li>
-<li>Ginger</li>
-<li>Garlic</li>
-<li>Fresh chilli</li>
-<li>Red thai curry paste</li>
-<li>1 can (400ml) coconut milk</li>
-<li>1 tablespoon fish sauce (optional, for extra umami flavor)</li>
-<li>1-2 tablespoons soy sauce (to taste)</li>
-<li>1 teaspoon sugar or honey (optional, for balance)</li>
-<li>1 bell pepper, sliced (optional, for extra texture)</li>
-<li>A handful of fresh spinach or bok choy (optional, for greens)</li>
-<li>Steamed jasmine rice, to serve</li>
-</ul>
-<h2 id="instructions">
-  Instructions:
-  <a class="anchor" href="#instructions">#</a>
-</h2>
-<ol>
-<li>
-<p><strong>Prep the Ingredients</strong>: Start by grating the ginger, mincing the garlic, and slicing the chili. If using fresh salmon, cut it into bite-sized pieces. If you’re using frozen fillets, make sure they’re thawed and cut as well.</p>
-        <a href="/salmon-thai-curry/">...</a>
-      
-    </p>
-  </article>
   
   <article class="markdown book-post">
     <h2>
@@ -606,6 +549,49 @@ pm2 start npm --name &#34;birdseye&#34; -- run start
     </p>
   </article>
   
+  <article class="markdown book-post">
+    <h2>
+      <a href="/setting-up-an-ubuntu-server/">Setting Up An Ubuntu Server</a>
+    </h2>
+    
+  <div class="flex align-center text-small book-post-date">
+    <img src="/svg/calendar.svg" class="book-icon " alt="" />
+    <span>October 27, 2024</span>
+  </div>
+
+
+
+  
+
+  
+  <div class="text-small">
+    
+      <a href="/tags/snippets/">Snippets</a>
+  </div>
+  
+
+
+    <p><h1 id="setting-up-an-ubuntu-server">
+  Setting Up An Ubuntu Server
+  <a class="anchor" href="#setting-up-an-ubuntu-server">#</a>
+</h1>
+<h2 id="provision-the-first-user">
+  Provision The First User
+  <a class="anchor" href="#provision-the-first-user">#</a>
+</h2>
+<p>It&rsquo;s not a good idea to use <code>root</code> so let&rsquo;s set up the main user.</p>
+<p>Create the user:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ sudo adduser tim
+</span></span></code></pre></div><p>Add the user to the <code>sudo</code> group:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ sudo usermod -aG sudo tim
+</span></span></code></pre></div><p>Verify sudo access by switching to the <code>tim</code> user:</p>
+<pre tabindex="0"><code>$ su - tim
+</code></pre><p>Then, check if sudo access works by running a sudo command, like listing the root directory:</p>
+        <a href="/setting-up-an-ubuntu-server/">...</a>
+      
+    </p>
+  </article>
+  
 
   
     <ul class="pagination pagination-default">
@@ -680,7 +666,7 @@ pm2 start npm --name &#34;birdseye&#34; -- run start
       
         <li class="flex justify-between">
           <a href="/tags/snippets/">Snippets</a>
-          <span>16</span>
+          <span>15</span>
         </li>
       
         <li class="flex justify-between">
